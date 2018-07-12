@@ -1,19 +1,33 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './App.css';
 
+const mapStateToProps = state => ({
+  emojis: state.emojis
+});
+
+const mapDispatchToProps = dispatch => ({
+});
+
 class App extends Component {
+
   render() {
+    const {emojis} = this.props;
+
+    const emojiItems = emojis.map((emoji) => <span>{emoji.emoji}</span>);
+    
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          {emojiItems}
         </p>
       </div>
     );
   }
 }
 
-export default App;
+export default connect(
+  mapStateToProps, 
+  mapDispatchToProps)
+(App);
