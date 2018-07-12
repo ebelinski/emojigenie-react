@@ -4,6 +4,7 @@ export const actionTypes = {
 }
 
 export const initialState = {
+  emojis: emojis
 }
 
 export const filterMiddleware = store => next => action => {
