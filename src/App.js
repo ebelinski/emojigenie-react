@@ -15,13 +15,10 @@ class App extends Component {
     const {emojis} = this.props;
 
     const emojiItems = emojis.map((emoji) => <span>{emoji.emoji}</span>);
-    
+
     return (
-      <div className="App">
-        
-        <p className="App-intro">
-          {emojiItems}
-        </p>
+      <div className="content">
+        {emojiItems}
       </div>
     );
   }
