@@ -5,7 +5,8 @@ import { actionTypes } from './redux';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
-  query: state.query
+  query: state.query,
+  filteredEmojis: state.filteredEmojis
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -21,9 +22,11 @@ class App extends Component {
   }
 
   render() {
-    const {emojis} = this.props;
+    const {query, emojis, filteredEmojis} = this.props;
 
-    const emojiItems = emojis.map((emoji) => <span>{emoji.emoji}</span>);
+    const emojisToUse = query ? filteredEmojis : emojis;
+
+    const emojiItems = emojisToUse.map((emoji) => <span>{emoji.emoji}</span>);
 
     return (
       <div className="content">
