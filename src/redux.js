@@ -6,15 +6,21 @@ export const actionTypes = {
 
 export const initialState = {
   emojis: emojis,
-  query: ""
+  query: "",
+  filteredEmojis: []
 }
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.QUERY:
+      const query = action.query;
+      const filteredEmojis = state.emojis.filter(emoji => {
+        if (emoji.description.toLowerCase().includes(query)) {return true;}
+      });
       return {
         ...state,
-        query: action.query
+        query: query,
+        filteredEmojis: filteredEmojis
       }
     default: return state;
   }
