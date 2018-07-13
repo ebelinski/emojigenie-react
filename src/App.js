@@ -34,12 +34,17 @@ class App extends Component {
         <div>
           <input 
             type="text" 
+            ref={(input) => { this.queryInput = input; }}
             value={this.props.query}
             onChange={this.handleChange.bind(this)} />
           </div>
         {emojiItems}
       </div>
     );
+  }
+
+  componentDidMount() {
+    this.queryInput.focus();
   }
 }
 
