@@ -1,6 +1,7 @@
 import emojis from './emojis.json';
 
 export const actionTypes = {
+  QUERY: 'QUERY'
 }
 
 export const initialState = {

@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
+import { actionTypes } from './redux';
 
 const mapStateToProps = state => ({
   emojis: state.emojis
 });
 
 const mapDispatchToProps = dispatch => ({
+  filterEmojis: (query) => dispatch ({
+    type: actionTypes.QUERY,
+    query: query
+  })
 });
 
 class App extends Component {
+  handleChange(event) {
+    this.props.filterEmojis(event.target.value);
+  }
 
   render() {
     const {emojis} = this.props;
@@ -18,13 +26,13 @@ class App extends Component {
 
     return (
       <div className="content">
-        {emojiItems}
+        <input 
+          type="text"
+          onChange={this.handleChange.bind(this)} />
+        <p>{emojiItems}</p>
       </div>
     );
   }
 }
 
-export default connect(
-  mapStateToProps, 
-  mapDispatchToProps)
-(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
