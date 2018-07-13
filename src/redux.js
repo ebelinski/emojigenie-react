@@ -5,14 +5,8 @@ export const actionTypes = {
 }
 
 export const initialState = {
-  emojis: emojis
-}
-
-export const filterMiddleware = store => next => action => {
-  next(action);
-  switch (action.type) {
-    default: break;
-  }
+  emojis: emojis,
+  query: ""
 }
 
 export const reducer = (state = initialState, action) => {
