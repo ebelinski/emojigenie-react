@@ -30,6 +30,7 @@ class App extends Component {
 
     return (
       <div className="content">
+        <h1>EmojiGenie 🧞‍♀️</h1>
         <div>
           <input 
             type="text" 
