@@ -11,6 +11,11 @@ export const initialState = {
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case actionTypes.QUERY:
+      return {
+        ...state,
+        query: action.query
+      }
     default: return state;
   }
 }

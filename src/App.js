@@ -4,7 +4,8 @@ import './App.css';
 import { actionTypes } from './redux';
 
 const mapStateToProps = state => ({
-  emojis: state.emojis
+  emojis: state.emojis,
+  query: state.query
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -27,7 +28,8 @@ class App extends Component {
     return (
       <div className="content">
         <input 
-          type="text"
+          type="text" 
+          value={this.props.query}
           onChange={this.handleChange.bind(this)} />
         <p>{emojiItems}</p>
       </div>
