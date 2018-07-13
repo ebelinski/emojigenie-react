@@ -14,6 +14,15 @@ export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.QUERY:
       const query = action.query;
+
+      if (!query) {
+        return {
+          ...state,
+          query: query,
+          filteredEmojis: []
+        }
+      }
+
       const filteredEmojis = state.emojis.filter(emoji => {
         if (emoji.description.toLowerCase().includes(query)) {return true;}
       });
