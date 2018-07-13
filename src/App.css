@@ -3,3 +3,15 @@
   margin: 0 auto;
   max-width: 800px;
 }
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 60px;
+  padding: 10px;
+}
+
+.emoji {
+  font-size: 40px;
+  display: inline-block;
+}

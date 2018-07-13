@@ -26,15 +26,17 @@ class App extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) => <span>{emoji.emoji}</span>);
+    const emojiItems = emojisToUse.map((emoji) => <div className="emoji">{emoji.emoji}</div>);
 
     return (
       <div className="content">
-        <input 
-          type="text" 
-          value={this.props.query}
-          onChange={this.handleChange.bind(this)} />
-        <p>{emojiItems}</p>
+        <div>
+          <input 
+            type="text" 
+            value={this.props.query}
+            onChange={this.handleChange.bind(this)} />
+          </div>
+        {emojiItems}
       </div>
     );
   }
