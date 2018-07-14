@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import './App.css';
 import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
+import ReactTooltip from 'react-tooltip';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
@@ -31,8 +32,9 @@ class App extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) => 
+    const emojiItems = emojisToUse.map((emoji) =>
       <span 
+        data-tip={emoji.name}
         role="img"
         aria-label={emoji.name}
         className="emoji"
@@ -52,6 +54,7 @@ class App extends Component {
             onChange={this.handleChange.bind(this)} />
         </div>
         <div className="emojis">{emojiItems}</div>
+        <ReactTooltip />
       </div>
     );
   }
