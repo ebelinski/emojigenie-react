@@ -23,6 +23,8 @@ input {
   border-radius: 12px;
   text-align: center;
   font-weight: bold;
+  font-family: monospace;
+  color: #555;
 }
 
 .emojis {
