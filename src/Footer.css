@@ -13,11 +13,14 @@ a {
   background: #eee;
   color: #000;
   margin: 0.5em 0em;
-  padding: 0.01em 1em;
+  padding: 0.5em 1em;
   border-radius: 0.5em;
   line-height: 1.4em;
 } .togglable-content p {
-  padding: 0.3em 0em; 
+  margin: 0.5em 0em; 
+} .togglable-content a {
+  color: #000;
+  text-decoration: underline;
 }
 
 button {
@@ -28,5 +31,9 @@ button {
   background: inherit;
   cursor: pointer;
   color: inherit;
+  font-weight: bold;
+}
+
+.question {
   font-weight: bold;
 }
