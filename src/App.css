@@ -6,18 +6,21 @@
 
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Pacifico', cursive;
+  color: #666;
 }
 
 input {
   width: 100%;
   border: none;
-  font-size: 60px;
+  font-size: 40px;
   padding: 10px;
+  background-color: #eee;
+  margin-bottom: 20px;
 }
 
 .emoji {
-  font-size: 60px;
+  font-size: 55px;
   display: inline-block;
 }

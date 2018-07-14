@@ -37,8 +37,8 @@ class App extends Component {
             ref={(input) => { this.queryInput = input; }}
             value={this.props.query}
             onChange={this.handleChange.bind(this)} />
-          </div>
-        {emojiItems}
+        </div>
+        <div className="emojis">{emojiItems}</div>
       </div>
     );
   }
