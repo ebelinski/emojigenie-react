@@ -1,16 +1,16 @@
 input {
   width: 100%;
   border: none;
-  font-size: 35px;
+  font-size: 40px;
   padding: 15px;
   box-sizing: border-box;
   background-color: #eee;
-  margin-bottom: 20px;
-  border-radius: 12px;
+  margin: 1em 0em;
+  border-radius: 0.8em;
   text-align: center;
   font-weight: bold;
-  font-family: monospace;
   color: #555;
+  font-family: 'Pacifico', cursive;
 }
 
 .emojis {
@@ -24,6 +24,9 @@ input {
   width: 1em;
   height: 1em;
   overflow: visible;
+} .emoji:hover {
+  background: #eee;
+  border-radius: 3px;
 }
 
 .no-results {

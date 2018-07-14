@@ -56,6 +56,7 @@ class Genie extends Component {
       <div className="Genie">
         <div>
           <input 
+            placeholder="EmojiGenie 🧞‍♀️"
             type="text" 
             ref={(input) => { this.queryInput = input; }}
             value={this.props.query}
