@@ -12,7 +12,7 @@ export default class FooterAbout extends Component {
   render() {
     return (
       <div className="togglable-content">
-        Hello World!
+        <p>EmojiGenie was created in July 2018 by <a href="https://ebelinski.com">me</a> because I got sick of spending so much time finding the right emoji.</p>
       </div>
     );
   }
