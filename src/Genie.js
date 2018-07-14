@@ -27,7 +27,10 @@ class Genie extends Component {
   handleEmojiClick(event) {
     const emoji = event.target.innerText;
     copy(emoji);
-    notify.show("Copied " + emoji);
+    notify.show("Copied " + emoji, 
+                "custom",
+                2000,
+                { background: "#333", text: "#fff" });
   }
 
   render() {
