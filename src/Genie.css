@@ -15,12 +15,15 @@ input {
 
 .emojis {
   text-align: center;
+  font-size: 55px;
+  line-height: 1em;
 }
 
 .emoji {
-  font-size: 55px;
   display: inline-block;
   width: 1em;
+  height: 1em;
+  overflow: visible;
 }
 
 .no-results {
