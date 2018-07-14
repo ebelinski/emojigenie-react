@@ -29,7 +29,7 @@ class App extends Component {
     const emojiItems = emojisToUse.map((emoji) => 
       <span 
         role="img"
-        aria-label="{emoji.name}"
+        aria-label={emoji.name}
         className="emoji">
         {emoji.char}
       </span>
