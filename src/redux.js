@@ -4,8 +4,10 @@ export const actionTypes = {
   QUERY: 'QUERY'
 }
 
+const emojisWithoutNewOnes = emojis.filter((emoji) => !emoji.name.includes("⊛"));
+
 export const initialState = {
-  emojis: emojis,
+  emojis: emojisWithoutNewOnes,
   query: "",
   filteredEmojis: []
 }
