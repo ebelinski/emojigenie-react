@@ -4,6 +4,7 @@ import './App.css';
 import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
 import ReactTooltip from 'react-tooltip';
+import Footer from './Footer';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
@@ -54,6 +55,8 @@ class App extends Component {
             onChange={this.handleChange.bind(this)} />
         </div>
         <div className="emojis">{emojiItems}</div>
+        
+        <Footer />
         <ReactTooltip />
       </div>
     );
