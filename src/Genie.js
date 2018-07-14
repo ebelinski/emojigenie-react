@@ -32,16 +32,21 @@ class Genie extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) =>
-      <span 
-        data-tip={emoji.name}
+    const emojiItems = emojisToUse.map((emoji) => {
+      var dataTip = emoji.name;
+      if (emoji.name.includes("⊛")) {
+        dataTip += " — This is a new emoji that your browser may not be able to display!";
+      }
+
+      return (<span 
+        data-tip={dataTip}
         role="img"
         aria-label={emoji.name}
         className="emoji"
         onClick={this.handleEmojiClick.bind(this)}>
         {emoji.char}
-      </span>
-    );
+      </span>)
+    });
 
     return (
       <div className="Genie">
