@@ -32,4 +32,5 @@ input {
 .emoji {
   font-size: 55px;
   display: inline-block;
+  width: 1em;
 }
