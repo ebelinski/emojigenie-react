@@ -25,6 +25,7 @@ export const reducer = (state = initialState, action) => {
 
       const lowerCaseQuery = query.toLowerCase();
       const filteredEmojis = state.emojis.filter(emoji => {
+        if (emoji.name.toLowerCase().includes(lowerCaseQuery)) {return true;}
         if (emoji.keywords.toLowerCase().includes(lowerCaseQuery)) {return true;}
         return false;
       });
