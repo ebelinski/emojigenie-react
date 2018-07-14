@@ -1,10 +1,30 @@
 .Footer {
-  padding: 2em 1em;
-  font-size: 0.8em;
+  padding: 2em 1em 3em;
   color: #666;
-  font-weight: bold;
 }
 
 a {
   color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.togglable-content {
+  background: #eee;
+  color: #000;
+  margin: 0.5em 0em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+button {
+  border: none;
+  text-decoration: underline;
+  padding: 0em;
+  margin: 0em;
+  font-size: inherit;
+  background: inherit;
+  cursor: pointer;
+  color: inherit;
+  font-weight: bold;
 }
