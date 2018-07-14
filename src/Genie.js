@@ -57,8 +57,8 @@ class Genie extends Component {
             value={this.props.query}
             onChange={this.handleChange.bind(this)} />
         </div>
-      <div className="emojis">{emojiItems}</div>
-      <ReactTooltip />
+        <div className="emojis">{emojiItems}</div>
+        <ReactTooltip />
       </div>
     );
   }
