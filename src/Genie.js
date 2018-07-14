@@ -4,6 +4,7 @@ import './Genie.css';
 import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
 import ReactTooltip from 'react-tooltip';
+import Notifications, {notify} from 'react-notify-toast';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
@@ -24,7 +25,9 @@ class Genie extends Component {
   }
 
   handleEmojiClick(event) {
-    copy(event.target.innerText);
+    const emoji = event.target.innerText;
+    copy(emoji);
+    notify.show("Copied " + emoji);
   }
 
   render() {
@@ -54,6 +57,7 @@ class Genie extends Component {
 
     return (
       <div className="Genie">
+        <Notifications />
         <div>
           <input 
             placeholder="EmojiGenie 🧞‍♀️"
