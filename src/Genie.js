@@ -44,6 +44,7 @@ class Genie extends Component {
       return (<span 
         data-tip={dataTip}
         role="img"
+        key={emoji.name}
         aria-label={emoji.name}
         className="emoji"
         onClick={this.handleEmojiClick.bind(this)}>
