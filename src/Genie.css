@@ -1,0 +1,24 @@
+input {
+  width: 100%;
+  border: none;
+  font-size: 35px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #eee;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  color: #555;
+}
+
+.emojis {
+  text-align: center;
+}
+
+.emoji {
+  font-size: 55px;
+  display: inline-block;
+  width: 1em;
+}
