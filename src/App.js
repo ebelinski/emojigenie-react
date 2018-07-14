@@ -26,7 +26,7 @@ class App extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) => <div className="emoji">{emoji.emoji}</div>);
+    const emojiItems = emojisToUse.map((emoji) => <div className="emoji">{emoji.char}</div>);
 
     return (
       <div className="content">
