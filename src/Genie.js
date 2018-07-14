@@ -48,7 +48,7 @@ class Genie extends Component {
       </span>)
     });
 
-    if (emojiItems.length == 0) {
+    if (emojiItems.length === 0) {
       emojiItems = (<div className="no-results">No emojis found.</div>);
     }
 
