@@ -9,16 +9,24 @@ h1 {
   font-size: 50px;
   font-family: 'Pacifico', cursive;
   color: #666;
+  margin: 0.3em;
 }
 
 input {
   width: 100%;
   border: none;
-  font-size: 40px;
-  padding: 10px;
+  font-size: 35px;
+  padding: 15px;
   box-sizing: border-box;
   background-color: #eee;
   margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.emojis {
+  text-align: center;
 }
 
 .emoji {
