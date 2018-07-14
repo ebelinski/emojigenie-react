@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
 import { actionTypes } from './redux';
+import copy from 'clipboard-copy';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
@@ -21,6 +22,10 @@ class App extends Component {
     this.props.filterEmojis(event.target.value);
   }
 
+  handleEmojiClick(event) {
+    copy(event.target.innerText);
+  }
+
   render() {
     const {query, emojis, filteredEmojis} = this.props;
 
@@ -30,7 +35,8 @@ class App extends Component {
       <span 
         role="img"
         aria-label={emoji.name}
-        className="emoji">
+        className="emoji"
+        onClick={this.handleEmojiClick.bind(this)}>
         {emoji.char}
       </span>
     );
