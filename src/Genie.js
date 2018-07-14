@@ -32,7 +32,7 @@ class Genie extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) => {
+    var emojiItems = emojisToUse.map((emoji) => {
       var dataTip = emoji.name;
       if (emoji.name.includes("⊛")) {
         dataTip += " — This is a new emoji that your browser may not be able to display!";
@@ -47,6 +47,10 @@ class Genie extends Component {
         {emoji.char}
       </span>)
     });
+
+    if (emojiItems.length == 0) {
+      emojiItems = (<div className="no-results">No emojis found.</div>);
+    }
 
     return (
       <div className="Genie">
