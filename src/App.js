@@ -26,11 +26,18 @@ class App extends Component {
 
     const emojisToUse = query ? filteredEmojis : emojis;
 
-    const emojiItems = emojisToUse.map((emoji) => <div className="emoji">{emoji.char}</div>);
+    const emojiItems = emojisToUse.map((emoji) => 
+      <span 
+        role="img"
+        aria-label="{emoji.name}"
+        className="emoji">
+        {emoji.char}
+      </span>
+    );
 
     return (
       <div className="content">
-        <h1>EmojiGenie 🧞‍♀️</h1>
+        <h1>EmojiGenie <span role="img" aria-label="woman genie">🧞‍♀️</span></h1>
         <div>
           <input 
             type="text" 
