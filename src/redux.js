@@ -1,11 +1,11 @@
 import allEmojis from './emoji.json';
-import { removeBadEmojis } from './emojiHelper';
+import { applyModifications } from './emojiHelper';
 
 export const actionTypes = {
   QUERY: 'QUERY'
 }
 
-const emojis = removeBadEmojis(allEmojis);
+const emojis = applyModifications(allEmojis);
 
 export const initialState = {
   emojis: emojis,
