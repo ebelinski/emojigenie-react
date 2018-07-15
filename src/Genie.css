@@ -25,14 +25,20 @@ input {
   overflow: hidden;
 }
 
-.emoji {
+.emoji-container {
   display: inline-block;
   width: 1em;
   height: 1em;
-  font-family: apple color emoji, segoe ui emoji, notocoloremoji, segoe ui symbol, android emoji, emojisymbols, emojione mozilla;
-} .emoji:hover {
+} .emoji-container:hover {
   background: #666;
   border-radius: 5px;
+}
+
+.emoji {
+  display: block;
+  position: relative;
+  top: 4px;
+  font-family: apple color emoji, segoe ui emoji, notocoloremoji, segoe ui symbol, android emoji, emojisymbols, emojione mozilla;
 }
 
 .no-results {

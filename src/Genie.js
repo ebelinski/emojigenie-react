@@ -44,7 +44,7 @@ class Genie extends Component {
         dataTip += " — This is a new emoji that your browser may not be able to display!";
       }
 
-      return (<span 
+      return (<div className="emoji-container"><span 
         data-tip={dataTip}
         role="img"
         key={emoji.name}
@@ -52,7 +52,7 @@ class Genie extends Component {
         className="emoji"
         onClick={this.handleEmojiClick.bind(this)}>
         {emoji.char}
-      </span>)
+      </span></div>)
     });
 
     if (emojiItems.length === 0) {
