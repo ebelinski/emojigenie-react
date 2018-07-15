@@ -62,7 +62,7 @@ class Genie extends Component {
     return (
       <div className="Genie">
         <Notifications />
-        <div>
+        <div id="input-container">
           <input 
             placeholder="EmojiGenie 🧞‍♀️"
             type="text" 
