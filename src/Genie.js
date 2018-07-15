@@ -30,7 +30,7 @@ class Genie extends Component {
     notify.show("Copied " + emoji, 
                 "custom",
                 2000,
-                { background: "#333", text: "#fff" });
+                { background: "#666", text: "#fff" });
   }
 
   render() {
