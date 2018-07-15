@@ -31,8 +31,8 @@ export default class Footer extends Component {
         <span> | </span>
         Created and maintained by <a href="https://twitter.com/EugeneBelinski">Eugene <span role="img" aria-label="man technologist">👨🏻‍💻</span></a>
 
-        {this.state.displayedContent == displayableContent.about ? <FooterAbout /> : null}
-        {this.state.displayedContent == displayableContent.help ? <FooterHelp /> : null}
+        {this.state.displayedContent === displayableContent.about ? <FooterAbout /> : null}
+        {this.state.displayedContent === displayableContent.help ? <FooterHelp /> : null}
       </div>
     );
   }
