@@ -17,13 +17,13 @@ input {
   text-align: center;
   font-size: 55px;
   line-height: 1em;
+  overflow: hidden;
 }
 
 .emoji {
   display: inline-block;
   width: 1em;
   height: 1em;
-  overflow: visible;
 } .emoji:hover {
   background: #eee;
   border-radius: 3px;
