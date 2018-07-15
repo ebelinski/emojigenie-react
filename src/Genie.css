@@ -29,6 +29,7 @@ input {
   display: inline-block;
   width: 1em;
   height: 1em;
+  font-family: apple color emoji, segoe ui emoji, notocoloremoji, segoe ui symbol, android emoji, emojisymbols, emojione mozilla;
 } .emoji:hover {
   background: #eee;
   border-radius: 3px;
