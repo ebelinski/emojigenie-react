@@ -1,13 +1,14 @@
-import emojis from './emoji.json';
+import allEmojis from './emoji.json';
+import { removeBadEmojis } from './emojiHelper';
 
 export const actionTypes = {
   QUERY: 'QUERY'
 }
 
-const emojisWithoutNewOnes = emojis.filter((emoji) => !emoji.name.includes("⊛"));
+const emojis = removeBadEmojis(allEmojis);
 
 export const initialState = {
-  emojis: emojisWithoutNewOnes,
+  emojis: emojis,
   query: "",
   filteredEmojis: []
 }
