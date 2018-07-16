@@ -7655,14 +7655,14 @@
     "codes": "1F58D",
     "char": "🖍",
     "name": "crayon",
-    "keywords": "crayon"
+    "keywords": "crayon + drawing"
   },
   {
     "no": 1095,
     "codes": "1F4DD",
     "char": "📝",
     "name": "memo",
-    "keywords": "memo | pencil"
+    "keywords": "memo | pencil + note"
   },
   {
     "no": 1096,
@@ -7697,14 +7697,14 @@
     "codes": "1F4C5",
     "char": "📅",
     "name": "calendar",
-    "keywords": "calendar | date"
+    "keywords": "calendar | date + event"
   },
   {
     "no": 1101,
     "codes": "1F4C6",
     "char": "📆",
     "name": "tear-off calendar",
-    "keywords": "calendar | tear-off calendar"
+    "keywords": "calendar | tear-off calendar + event"
   },
   {
     "no": 1102,
@@ -7718,7 +7718,7 @@
     "codes": "1F5D3",
     "char": "🗓",
     "name": "spiral calendar",
-    "keywords": "calendar | pad | spiral"
+    "keywords": "calendar | pad | spiral + event"
   },
   {
     "no": 1104,
@@ -7732,14 +7732,14 @@
     "codes": "1F4C8",
     "char": "📈",
     "name": "chart increasing",
-    "keywords": "chart | chart increasing | graph | growth | trend | upward"
+    "keywords": "chart | chart increasing | graph | growth | trend | upward + growth"
   },
   {
     "no": 1106,
     "codes": "1F4C9",
     "char": "📉",
     "name": "chart decreasing",
-    "keywords": "chart | chart decreasing | down | graph | trend"
+    "keywords": "chart | chart decreasing | down | graph | trend + decline"
   },
   {
     "no": 1107,
@@ -7760,7 +7760,7 @@
     "codes": "1F4CC",
     "char": "📌",
     "name": "pushpin",
-    "keywords": "pin | pushpin"
+    "keywords": "pin | pushpin + location"
   },
   {
     "no": 1110,
@@ -7788,14 +7788,14 @@
     "codes": "1F4CF",
     "char": "📏",
     "name": "straight ruler",
-    "keywords": "ruler | straight edge | straight ruler"
+    "keywords": "ruler | straight edge | straight ruler + geometry"
   },
   {
     "no": 1114,
     "codes": "1F4D0",
     "char": "📐",
     "name": "triangular ruler",
-    "keywords": "ruler | set | triangle | triangular ruler"
+    "keywords": "ruler | set | triangle | triangular ruler + geometry"
   },
   {
     "no": 1115,
@@ -7823,14 +7823,14 @@
     "codes": "1F5D1",
     "char": "🗑",
     "name": "wastebasket",
-    "keywords": "wastebasket"
+    "keywords": "wastebasket + trash + garbage"
   },
   {
     "no": 1119,
     "codes": "1F512",
     "char": "🔒",
     "name": "locked",
-    "keywords": "closed | locked"
+    "keywords": "closed | locked + forbidden"
   },
   {
     "no": 1120,
@@ -8040,21 +8040,21 @@
     "codes": "1F4E1",
     "char": "📡",
     "name": "satellite antenna",
-    "keywords": "antenna | dish | satellite"
+    "keywords": "antenna | dish | satellite + broadcast"
   },
   {
     "no": 1150,
     "codes": "1F489",
     "char": "💉",
     "name": "syringe",
-    "keywords": "doctor | medicine | needle | shot | sick | syringe | tool"
+    "keywords": "doctor | medicine | needle | shot | sick | syringe | tool + blood"
   },
   {
     "no": 1151,
     "codes": "1F48A",
     "char": "💊",
     "name": "pill",
-    "keywords": "doctor | medicine | pill | sick"
+    "keywords": "doctor | medicine | pill | sick + rx + drugs"
   },
   {
     "no": 1152,
@@ -8096,7 +8096,7 @@
     "codes": "1F6C1",
     "char": "🛁",
     "name": "bathtub",
-    "keywords": "bath | bathtub"
+    "keywords": "bath | bathtub + shower"
   },
   {
     "no": 1158,
@@ -8159,7 +8159,7 @@
     "codes": "1F6D2",
     "char": "🛒",
     "name": "shopping cart",
-    "keywords": "cart | shopping | trolley"
+    "keywords": "cart | shopping | trolley + commerce"
   },
   {
     "no": 1167,
@@ -8173,7 +8173,7 @@
     "codes": "26B0",
     "char": "⚰",
     "name": "coffin",
-    "keywords": "coffin | death"
+    "keywords": "coffin | death + dead"
   },
   {
     "no": 1169,
@@ -8201,7 +8201,7 @@
     "codes": "1F6AE",
     "char": "🚮",
     "name": "litter in bin sign",
-    "keywords": "litter | litter bin | litter in bin sign"
+    "keywords": "litter | litter bin | litter in bin sign + trash + garbage"
   },
   {
     "no": 1173,
@@ -8222,21 +8222,21 @@
     "codes": "1F6B9",
     "char": "🚹",
     "name": "men’s room",
-    "keywords": "lavatory | man | men’s room | restroom | wc"
+    "keywords": "lavatory | man | men’s room | restroom | wc + bathroom"
   },
   {
     "no": 1176,
     "codes": "1F6BA",
     "char": "🚺",
     "name": "women’s room",
-    "keywords": "lavatory | restroom | wc | woman | women’s room"
+    "keywords": "lavatory | restroom | wc | woman | women’s room + bathroom"
   },
   {
     "no": 1177,
     "codes": "1F6BB",
     "char": "🚻",
     "name": "restroom",
-    "keywords": "lavatory | restroom | WC"
+    "keywords": "lavatory | restroom | WC + bathroom"
   },
   {
     "no": 1178,
@@ -8250,35 +8250,35 @@
     "codes": "1F6BE",
     "char": "🚾",
     "name": "water closet",
-    "keywords": "closet | lavatory | restroom | water | wc"
+    "keywords": "closet | lavatory | restroom | water | wc + bathroom"
   },
   {
     "no": 1180,
     "codes": "1F6C2",
     "char": "🛂",
     "name": "passport control",
-    "keywords": "control | passport"
+    "keywords": "control | passport + airport"
   },
   {
     "no": 1181,
     "codes": "1F6C3",
     "char": "🛃",
     "name": "customs",
-    "keywords": "customs"
+    "keywords": "customs + airport"
   },
   {
     "no": 1182,
     "codes": "1F6C4",
     "char": "🛄",
     "name": "baggage claim",
-    "keywords": "baggage | claim"
+    "keywords": "baggage | claim + airport"
   },
   {
     "no": 1183,
     "codes": "1F6C5",
     "char": "🛅",
     "name": "left luggage",
-    "keywords": "baggage | left luggage | locker | luggage"
+    "keywords": "baggage | left luggage | locker | luggage + airport"
   },
   {
     "no": 1184,
@@ -8355,7 +8355,7 @@
     "codes": "1F51E",
     "char": "🔞",
     "name": "no one under eighteen",
-    "keywords": "18 | age restriction | eighteen | forbidden | no | no one under eighteen | not | prohibited | underage"
+    "keywords": "18 | age restriction | eighteen | forbidden | no | no one under eighteen | not | prohibited | underage + adult + porn"
   },
   {
     "no": 1195,
@@ -8523,7 +8523,7 @@
     "codes": "1F6D0",
     "char": "🛐",
     "name": "place of worship",
-    "keywords": "place of worship | religion | worship"
+    "keywords": "place of worship | religion | worship + prayer"
   },
   {
     "no": 1219,
@@ -8544,7 +8544,7 @@
     "codes": "2721",
     "char": "✡",
     "name": "star of David",
-    "keywords": "David | Jew | Jewish | religion | star | star of David"
+    "keywords": "David | Jew | Jewish | religion | star | star of David + Judaism"
   },
   {
     "no": 1222,
@@ -8698,70 +8698,70 @@
     "codes": "1F500",
     "char": "🔀",
     "name": "shuffle tracks button",
-    "keywords": "arrow | crossed | shuffle tracks button"
+    "keywords": "arrow | crossed | shuffle tracks button + music control"
   },
   {
     "no": 1244,
     "codes": "1F501",
     "char": "🔁",
     "name": "repeat button",
-    "keywords": "arrow | clockwise | repeat | repeat button"
+    "keywords": "arrow | clockwise | repeat | repeat button + music control"
   },
   {
     "no": 1245,
     "codes": "1F502",
     "char": "🔂",
     "name": "repeat single button",
-    "keywords": "arrow | clockwise | once | repeat single button"
+    "keywords": "arrow | clockwise | once | repeat single button + music control"
   },
   {
     "no": 1246,
     "codes": "25B6",
     "char": "▶",
     "name": "play button",
-    "keywords": "arrow | play | play button | right | triangle"
+    "keywords": "arrow | play | play button | right | triangle + music control"
   },
   {
     "no": 1247,
     "codes": "23E9",
     "char": "⏩",
     "name": "fast-forward button",
-    "keywords": "arrow | double | fast | fast-forward button | forward"
+    "keywords": "arrow | double | fast | fast-forward button | forward + music control"
   },
   {
     "no": 1248,
     "codes": "23ED",
     "char": "⏭",
     "name": "next track button",
-    "keywords": "arrow | next scene | next track | next track button | triangle"
+    "keywords": "arrow | next scene | next track | next track button | triangle + music control"
   },
   {
     "no": 1249,
     "codes": "23EF",
     "char": "⏯",
     "name": "play or pause button",
-    "keywords": "arrow | pause | play | play or pause button | right | triangle"
+    "keywords": "arrow | pause | play | play or pause button | right | triangle + music control"
   },
   {
     "no": 1250,
     "codes": "25C0",
     "char": "◀",
     "name": "reverse button",
-    "keywords": "arrow | left | reverse | reverse button | triangle"
+    "keywords": "arrow | left | reverse | reverse button | triangle + music control"
   },
   {
     "no": 1251,
     "codes": "23EA",
     "char": "⏪",
     "name": "fast reverse button",
-    "keywords": "arrow | double | fast reverse button | rewind"
+    "keywords": "arrow | double | fast reverse button | rewind + music control"
   },
   {
     "no": 1252,
     "codes": "23EE",
     "char": "⏮",
     "name": "last track button",
-    "keywords": "arrow | last track button | previous scene | previous track | triangle"
+    "keywords": "arrow | last track button | previous scene | previous track | triangle + music control"
   },
   {
     "no": 1253,
@@ -8796,14 +8796,14 @@
     "codes": "23F8",
     "char": "⏸",
     "name": "pause button",
-    "keywords": "bar | double | pause | pause button | vertical"
+    "keywords": "bar | double | pause | pause button | vertical + music control"
   },
   {
     "no": 1258,
     "codes": "23F9",
     "char": "⏹",
     "name": "stop button",
-    "keywords": "square | stop | stop button"
+    "keywords": "square | stop | stop button + music control"
   },
   {
     "no": 1259,
@@ -8866,14 +8866,14 @@
     "codes": "2640",
     "char": "♀",
     "name": "female sign",
-    "keywords": "female sign | woman"
+    "keywords": "female sign | woman + feminine"
   },
   {
     "no": 1268,
     "codes": "2642",
     "char": "♂",
     "name": "male sign",
-    "keywords": "male sign | man"
+    "keywords": "male sign | man + masculine"
   },
   {
     "no": 1269,
@@ -8887,7 +8887,7 @@
     "codes": "267E",
     "char": "♾",
     "name": "⊛ infinity",
-    "keywords": "forever | unbounded | universal"
+    "keywords": "forever | unbounded | universal + infinite"
   },
   {
     "no": 1271,
@@ -8936,21 +8936,21 @@
     "codes": "2705",
     "char": "✅",
     "name": "white heavy check mark",
-    "keywords": "check | mark | white heavy check mark"
+    "keywords": "check | mark | white heavy check mark + done + success + complete + yes"
   },
   {
     "no": 1278,
     "codes": "2611",
     "char": "☑",
     "name": "ballot box with check",
-    "keywords": "ballot | ballot box with check | box | check"
+    "keywords": "ballot | ballot box with check | box | check + done + success + complete + yes"
   },
   {
     "no": 1279,
     "codes": "2714",
     "char": "✔",
     "name": "heavy check mark",
-    "keywords": "check | heavy check mark | mark"
+    "keywords": "check | heavy check mark | mark + done + success + complete + yes"
   },
   {
     "no": 1280,
@@ -8964,7 +8964,7 @@
     "codes": "274C",
     "char": "❌",
     "name": "cross mark",
-    "keywords": "cancel | cross mark | mark | multiplication | multiply | x"
+    "keywords": "cancel | cross mark | mark | multiplication | multiply | x + incomplete + fail + no"
   },
   {
     "no": 1282,
@@ -9041,21 +9041,21 @@
     "codes": "203C",
     "char": "‼",
     "name": "double exclamation mark",
-    "keywords": "bangbang | double exclamation mark | exclamation | mark | punctuation"
+    "keywords": "bangbang | double exclamation mark | exclamation | mark | punctuation + !"
   },
   {
     "no": 1293,
     "codes": "2049",
     "char": "⁉",
     "name": "exclamation question mark",
-    "keywords": "exclamation | interrobang | mark | punctuation | question"
+    "keywords": "exclamation | interrobang | mark | punctuation | question + !?"
   },
   {
     "no": 1294,
     "codes": "2753",
     "char": "❓",
     "name": "question mark",
-    "keywords": "mark | punctuation | question"
+    "keywords": "mark | punctuation | question + ?"
   },
   {
     "no": 1295,
@@ -9069,14 +9069,14 @@
     "codes": "2755",
     "char": "❕",
     "name": "white exclamation mark",
-    "keywords": "exclamation | mark | outlined | punctuation | white exclamation mark"
+    "keywords": "exclamation | mark | outlined | punctuation | white exclamation mark + !"
   },
   {
     "no": 1297,
     "codes": "2757",
     "char": "❗",
     "name": "exclamation mark",
-    "keywords": "exclamation | mark | punctuation"
+    "keywords": "exclamation | mark | punctuation + !"
   },
   {
     "no": 1298,
@@ -9090,119 +9090,119 @@
     "codes": "00A9",
     "char": "©",
     "name": "copyright",
-    "keywords": "copyright"
+    "keywords": "copyright + (c)"
   },
   {
     "no": 1300,
     "codes": "00AE",
     "char": "®",
     "name": "registered",
-    "keywords": "registered"
+    "keywords": "registered + (r)"
   },
   {
     "no": 1301,
     "codes": "2122",
     "char": "™",
     "name": "trade mark",
-    "keywords": "mark | tm | trade mark | trademark"
+    "keywords": "mark | tm | trade mark | trademark + (tm)"
   },
   {
     "no": 1302,
     "codes": "0023 FE0F 20E3",
     "char": "#️⃣",
     "name": "keycap: #",
-    "keywords": "keycap"
+    "keywords": "keycap + #"
   },
   {
     "no": 1303,
     "codes": "002A FE0F 20E3",
     "char": "*️⃣",
     "name": "keycap: *",
-    "keywords": "keycap"
+    "keywords": "keycap + *"
   },
   {
     "no": 1304,
     "codes": "0030 FE0F 20E3",
     "char": "0️⃣",
     "name": "keycap: 0",
-    "keywords": "keycap"
+    "keywords": "keycap + zero"
   },
   {
     "no": 1305,
     "codes": "0031 FE0F 20E3",
     "char": "1️⃣",
     "name": "keycap: 1",
-    "keywords": "keycap"
+    "keywords": "keycap + one"
   },
   {
     "no": 1306,
     "codes": "0032 FE0F 20E3",
     "char": "2️⃣",
     "name": "keycap: 2",
-    "keywords": "keycap"
+    "keywords": "keycap + two"
   },
   {
     "no": 1307,
     "codes": "0033 FE0F 20E3",
     "char": "3️⃣",
     "name": "keycap: 3",
-    "keywords": "keycap"
+    "keywords": "keycap + three"
   },
   {
     "no": 1308,
     "codes": "0034 FE0F 20E3",
     "char": "4️⃣",
     "name": "keycap: 4",
-    "keywords": "keycap"
+    "keywords": "keycap + four"
   },
   {
     "no": 1309,
     "codes": "0035 FE0F 20E3",
     "char": "5️⃣",
     "name": "keycap: 5",
-    "keywords": "keycap"
+    "keywords": "keycap + five"
   },
   {
     "no": 1310,
     "codes": "0036 FE0F 20E3",
     "char": "6️⃣",
     "name": "keycap: 6",
-    "keywords": "keycap"
+    "keywords": "keycap + 6"
   },
   {
     "no": 1311,
     "codes": "0037 FE0F 20E3",
     "char": "7️⃣",
     "name": "keycap: 7",
-    "keywords": "keycap"
+    "keywords": "keycap + 7"
   },
   {
     "no": 1312,
     "codes": "0038 FE0F 20E3",
     "char": "8️⃣",
     "name": "keycap: 8",
-    "keywords": "keycap"
+    "keywords": "keycap + 8"
   },
   {
     "no": 1313,
     "codes": "0039 FE0F 20E3",
     "char": "9️⃣",
     "name": "keycap: 9",
-    "keywords": "keycap"
+    "keywords": "keycap + 9"
   },
   {
     "no": 1314,
     "codes": "1F51F",
     "char": "🔟",
     "name": "keycap: 10",
-    "keywords": "keycap"
+    "keywords": "keycap + ten"
   },
   {
     "no": 1315,
     "codes": "1F4AF",
     "char": "💯",
     "name": "hundred points",
-    "keywords": "100 | full | hundred | hundred points | score"
+    "keywords": "100 | full | hundred | hundred points | score + one hundred + perfect + amazing"
   },
   {
     "no": 1316,
@@ -9258,7 +9258,7 @@
     "codes": "1F171",
     "char": "🅱",
     "name": "B button (blood type)",
-    "keywords": "b | B button (blood type) | blood type"
+    "keywords": "b | B button (blood type) | blood type + dank"
   },
   {
     "no": 1324,
@@ -9328,7 +9328,7 @@
     "codes": "1F197",
     "char": "🆗",
     "name": "OK button",
-    "keywords": "OK | OK button"
+    "keywords": "OK | OK button + okay"
   },
   {
     "no": 1334,
@@ -9671,7 +9671,7 @@
     "codes": "1F3F3 FE0F 200D 1F308",
     "char": "🏳️‍🌈",
     "name": "rainbow flag",
-    "keywords": "rainbow | rainbow flag"
+    "keywords": "rainbow | rainbow flag + lgbt"
   },
   {
     "no": 1383,
