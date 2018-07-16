@@ -4,77 +4,77 @@
     "codes": "1F600",
     "char": "😀",
     "name": "grinning face",
-    "keywords": "face | grin | grinning face"
+    "keywords": "face | grin | grinning face + happy"
   },
   {
     "no": 2,
     "codes": "1F601",
     "char": "😁",
     "name": "beaming face with smiling eyes",
-    "keywords": "beaming face with smiling eyes | eye | face | grin | smile"
+    "keywords": "beaming face with smiling eyes | eye | face | grin | smile + happy"
   },
   {
     "no": 3,
     "codes": "1F602",
     "char": "😂",
     "name": "face with tears of joy",
-    "keywords": "face | face with tears of joy | joy | laugh | tear"
+    "keywords": "face | face with tears of joy | joy | laugh | tear + happy + crying"
   },
   {
     "no": 4,
     "codes": "1F923",
     "char": "🤣",
     "name": "rolling on the floor laughing",
-    "keywords": "face | floor | laugh | rolling | rolling on the floor laughing"
+    "keywords": "face | floor | laugh | rolling | rolling on the floor laughing + happy + crying"
   },
   {
     "no": 5,
     "codes": "1F603",
     "char": "😃",
     "name": "grinning face with big eyes",
-    "keywords": "face | grinning face with big eyes | mouth | open | smile"
+    "keywords": "face | grinning face with big eyes | mouth | open | smile + happy"
   },
   {
     "no": 6,
     "codes": "1F604",
     "char": "😄",
     "name": "grinning face with smiling eyes",
-    "keywords": "eye | face | grinning face with smiling eyes | mouth | open | smile"
+    "keywords": "eye | face | grinning face with smiling eyes | mouth | open | smile + happy"
   },
   {
     "no": 7,
     "codes": "1F605",
     "char": "😅",
     "name": "grinning face with sweat",
-    "keywords": "cold | face | grinning face with sweat | open | smile | sweat"
+    "keywords": "cold | face | grinning face with sweat | open | smile | sweat + happy + nervous"
   },
   {
     "no": 8,
     "codes": "1F606",
     "char": "😆",
     "name": "grinning squinting face",
-    "keywords": "face | grinning squinting face | laugh | mouth | open | satisfied | smile"
+    "keywords": "face | grinning squinting face | laugh | mouth | open | satisfied | smile + happy + xD"
   },
   {
     "no": 9,
     "codes": "1F609",
     "char": "😉",
     "name": "winking face",
-    "keywords": "face | wink | winking face"
+    "keywords": "face | wink | winking face + happy"
   },
   {
     "no": 10,
     "codes": "1F60A",
     "char": "😊",
     "name": "smiling face with smiling eyes",
-    "keywords": "blush | eye | face | smile | smiling face with smiling eyes"
+    "keywords": "blush | eye | face | smile | smiling face with smiling eyes + happy"
   },
   {
     "no": 11,
     "codes": "1F60B",
     "char": "😋",
     "name": "face savoring food",
-    "keywords": "delicious | face | face savoring food | savouring | smile | um | yum"
+    "keywords": "delicious | face | face savoring food | savouring | smile | um | yum + tongue"
   },
   {
     "no": 12,
@@ -95,7 +95,7 @@
     "codes": "1F618",
     "char": "😘",
     "name": "face blowing a kiss",
-    "keywords": "face | face blowing a kiss | kiss"
+    "keywords": "face | face blowing a kiss | kiss + heart"
   },
   {
     "no": 15,
@@ -137,14 +137,14 @@
     "codes": "1F642",
     "char": "🙂",
     "name": "slightly smiling face",
-    "keywords": "face | slightly smiling face | smile"
+    "keywords": "face | slightly smiling face | smile + happy"
   },
   {
     "no": 21,
     "codes": "1F917",
     "char": "🤗",
     "name": "hugging face",
-    "keywords": "face | hug | hugging"
+    "keywords": "face | hug | hugging + happy + cuddles"
   },
   {
     "no": 22,
@@ -158,7 +158,7 @@
     "codes": "1F914",
     "char": "🤔",
     "name": "thinking face",
-    "keywords": "face | thinking"
+    "keywords": "face | thinking + pondering"
   },
   {
     "no": 24,
@@ -172,21 +172,21 @@
     "codes": "1F610",
     "char": "😐",
     "name": "neutral face",
-    "keywords": "deadpan | face | neutral"
+    "keywords": "deadpan | face | neutral + bored"
   },
   {
     "no": 26,
     "codes": "1F611",
     "char": "😑",
     "name": "expressionless face",
-    "keywords": "expressionless | face | inexpressive | unexpressive"
+    "keywords": "expressionless | face | inexpressive | unexpressive + bored"
   },
   {
     "no": 27,
     "codes": "1F636",
     "char": "😶",
     "name": "face without mouth",
-    "keywords": "face | face without mouth | mouth | quiet | silent"
+    "keywords": "face | face without mouth | mouth | quiet | silent + nervous"
   },
   {
     "no": 28,
@@ -207,7 +207,7 @@
     "codes": "1F623",
     "char": "😣",
     "name": "persevering face",
-    "keywords": "face | persevere | persevering face"
+    "keywords": "face | persevere | persevering face + ouch + wincing"
   },
   {
     "no": 31,
@@ -221,21 +221,21 @@
     "codes": "1F62E",
     "char": "😮",
     "name": "face with open mouth",
-    "keywords": "face | face with open mouth | mouth | open | sympathy"
+    "keywords": "face | face with open mouth | mouth | open | sympathy + shocked + surprised"
   },
   {
     "no": 33,
     "codes": "1F910",
     "char": "🤐",
     "name": "zipper-mouth face",
-    "keywords": "face | mouth | zipper | zipper-mouth face"
+    "keywords": "face | mouth | zipper | zipper-mouth face + lips are sealed"
   },
   {
     "no": 34,
     "codes": "1F62F",
     "char": "😯",
     "name": "hushed face",
-    "keywords": "face | hushed | stunned | surprised"
+    "keywords": "face | hushed | stunned | surprised + shocked"
   },
   {
     "no": 35,
@@ -270,35 +270,35 @@
     "codes": "1F61B",
     "char": "😛",
     "name": "face with tongue",
-    "keywords": "face | face with tongue | tongue"
+    "keywords": "face | face with tongue | tongue + :P"
   },
   {
     "no": 40,
     "codes": "1F61C",
     "char": "😜",
     "name": "winking face with tongue",
-    "keywords": "eye | face | joke | tongue | wink | winking face with tongue"
+    "keywords": "eye | face | joke | tongue | wink | winking face with tongue + ;P"
   },
   {
     "no": 41,
     "codes": "1F61D",
     "char": "😝",
     "name": "squinting face with tongue",
-    "keywords": "eye | face | horrible | squinting face with tongue | taste | tongue"
+    "keywords": "eye | face | horrible | squinting face with tongue | taste | tongue + xP"
   },
   {
     "no": 42,
     "codes": "1F924",
     "char": "🤤",
     "name": "drooling face",
-    "keywords": "drooling | face"
+    "keywords": "drooling | face + yummy"
   },
   {
     "no": 43,
     "codes": "1F612",
     "char": "😒",
     "name": "unamused face",
-    "keywords": "face | unamused | unhappy"
+    "keywords": "face | unamused | unhappy + bored"
   },
   {
     "no": 44,
@@ -312,28 +312,28 @@
     "codes": "1F614",
     "char": "😔",
     "name": "pensive face",
-    "keywords": "dejected | face | pensive"
+    "keywords": "dejected | face | pensive + sad"
   },
   {
     "no": 46,
     "codes": "1F615",
     "char": "😕",
     "name": "confused face",
-    "keywords": "confused | face"
+    "keywords": "confused | face + :/ frown"
   },
   {
     "no": 47,
     "codes": "1F643",
     "char": "🙃",
     "name": "upside-down face",
-    "keywords": "face | upside-down"
+    "keywords": "face | upside-down + happy"
   },
   {
     "no": 48,
     "codes": "1F911",
     "char": "🤑",
     "name": "money-mouth face",
-    "keywords": "face | money | money-mouth face | mouth"
+    "keywords": "face | money | money-mouth face | mouth + $ + cash"
   },
   {
     "no": 49,
@@ -354,70 +354,70 @@
     "codes": "1F641",
     "char": "🙁",
     "name": "slightly frowning face",
-    "keywords": "face | frown | slightly frowning face"
+    "keywords": "face | frown | slightly frowning face + sad"
   },
   {
     "no": 52,
     "codes": "1F616",
     "char": "😖",
     "name": "confounded face",
-    "keywords": "confounded | face"
+    "keywords": "confounded | face + sad"
   },
   {
     "no": 53,
     "codes": "1F61E",
     "char": "😞",
     "name": "disappointed face",
-    "keywords": "disappointed | face"
+    "keywords": "disappointed | face + sad"
   },
   {
     "no": 54,
     "codes": "1F61F",
     "char": "😟",
     "name": "worried face",
-    "keywords": "face | worried"
+    "keywords": "face | worried + sad"
   },
   {
     "no": 55,
     "codes": "1F624",
     "char": "😤",
     "name": "face with steam from nose",
-    "keywords": "face | face with steam from nose | triumph | won"
+    "keywords": "face | face with steam from nose | triumph | won + humph"
   },
   {
     "no": 56,
     "codes": "1F622",
     "char": "😢",
     "name": "crying face",
-    "keywords": "cry | crying face | face | sad | tear"
+    "keywords": "cry | crying face | face | sad | tear + sad"
   },
   {
     "no": 57,
     "codes": "1F62D",
     "char": "😭",
     "name": "loudly crying face",
-    "keywords": "cry | face | loudly crying face | sad | sob | tear"
+    "keywords": "cry | face | loudly crying face | sad | sob | tear + sad"
   },
   {
     "no": 58,
     "codes": "1F626",
     "char": "😦",
     "name": "frowning face with open mouth",
-    "keywords": "face | frown | frowning face with open mouth | mouth | open"
+    "keywords": "face | frown | frowning face with open mouth | mouth | open + shocked"
   },
   {
     "no": 59,
     "codes": "1F627",
     "char": "😧",
     "name": "anguished face",
-    "keywords": "anguished | face"
+    "keywords": "anguished | face + shocked"
   },
   {
     "no": 60,
     "codes": "1F628",
     "char": "😨",
     "name": "fearful face",
-    "keywords": "face | fear | fearful | scared"
+    "keywords": "face | fear | fearful | scared + sad"
   },
   {
     "no": 61,
@@ -431,7 +431,7 @@
     "codes": "1F92F",
     "char": "🤯",
     "name": "exploding head",
-    "keywords": "exploding head | shocked"
+    "keywords": "exploding head | shocked + mindblown + mind blown + mushroom"
   },
   {
     "no": 63,
@@ -473,21 +473,21 @@
     "codes": "1F633",
     "char": "😳",
     "name": "flushed face",
-    "keywords": "dazed | face | flushed"
+    "keywords": "dazed | face | flushed + embarrassed"
   },
   {
     "no": 69,
     "codes": "1F92A",
     "char": "🤪",
     "name": "zany face",
-    "keywords": "eye | goofy | large | small | zany face"
+    "keywords": "eye | goofy | large | small | zany face + silly"
   },
   {
     "no": 70,
     "codes": "1F635",
     "char": "😵",
     "name": "dizzy face",
-    "keywords": "dizzy | face"
+    "keywords": "dizzy | face + dead + died"
   },
   {
     "no": 71,
@@ -508,7 +508,7 @@
     "codes": "1F92C",
     "char": "🤬",
     "name": "face with symbols on mouth",
-    "keywords": "face with symbols on mouth | swearing | cursing"
+    "keywords": "face with symbols on mouth | swearing | cursing + fuck + shit + crap"
   },
   {
     "no": 74,
@@ -536,28 +536,28 @@
     "codes": "1F922",
     "char": "🤢",
     "name": "nauseated face",
-    "keywords": "face | nauseated | vomit"
+    "keywords": "face | nauseated | vomit + throwup + sick"
   },
   {
     "no": 78,
     "codes": "1F92E",
     "char": "🤮",
     "name": "face vomiting",
-    "keywords": "face vomiting | sick | vomit"
+    "keywords": "face vomiting | sick | vomit + throwup"
   },
   {
     "no": 79,
     "codes": "1F927",
     "char": "🤧",
     "name": "sneezing face",
-    "keywords": "face | gesundheit | sneeze | sneezing face"
+    "keywords": "face | gesundheit | sneeze | sneezing face + sick"
   },
   {
     "no": 80,
     "codes": "1F607",
     "char": "😇",
     "name": "smiling face with halo",
-    "keywords": "angel | face | fairy tale | fantasy | halo | innocent | smile | smiling face with halo"
+    "keywords": "angel | face | fairy tale | fantasy | halo | innocent | smile | smiling face with halo + happy"
   },
   {
     "no": 81,
@@ -592,7 +592,7 @@
     "codes": "1F925",
     "char": "🤥",
     "name": "lying face",
-    "keywords": "face | lie | lying face | pinocchio"
+    "keywords": "face | lie | lying face | pinocchio + nose"
   },
   {
     "no": 86,
@@ -620,28 +620,28 @@
     "codes": "1F913",
     "char": "🤓",
     "name": "nerd face",
-    "keywords": "face | geek | nerd"
+    "keywords": "face | geek | nerd + glasses + dork + program"
   },
   {
     "no": 90,
     "codes": "1F608",
     "char": "😈",
     "name": "smiling face with horns",
-    "keywords": "face | fairy tale | fantasy | horns | smile | smiling face with horns"
+    "keywords": "face | fairy tale | fantasy | horns | smile | smiling face with horns + evil"
   },
   {
     "no": 91,
     "codes": "1F47F",
     "char": "👿",
     "name": "angry face with horns",
-    "keywords": "angry face with horns | demon | devil | face | fairy tale | fantasy | imp"
+    "keywords": "angry face with horns | demon | devil | face | fairy tale | fantasy | imp + evil"
   },
   {
     "no": 92,
     "codes": "1F921",
     "char": "🤡",
     "name": "clown face",
-    "keywords": "clown | face"
+    "keywords": "clown | face + silly"
   },
   {
     "no": 93,
@@ -662,7 +662,7 @@
     "codes": "1F480",
     "char": "💀",
     "name": "skull",
-    "keywords": "death | face | fairy tale | monster | skull"
+    "keywords": "death | face | fairy tale | monster | skull + dead + death + dying"
   },
   {
     "no": 96,
@@ -676,7 +676,7 @@
     "codes": "1F47B",
     "char": "👻",
     "name": "ghost",
-    "keywords": "creature | face | fairy tale | fantasy | ghost | monster"
+    "keywords": "creature | face | fairy tale | fantasy | ghost | monster + dead + death"
   },
   {
     "no": 98,
@@ -697,35 +697,35 @@
     "codes": "1F916",
     "char": "🤖",
     "name": "robot face",
-    "keywords": "face | monster | robot"
+    "keywords": "face | monster | robot + siri"
   },
   {
     "no": 101,
     "codes": "1F4A9",
     "char": "💩",
     "name": "pile of poo",
-    "keywords": "comic | dung | face | monster | pile of poo | poo | poop"
+    "keywords": "comic | dung | face | monster | pile of poo | poo | poop + crap + shit"
   },
   {
     "no": 102,
     "codes": "1F63A",
     "char": "😺",
     "name": "grinning cat face",
-    "keywords": "cat | face | grinning cat face | mouth | open | smile"
+    "keywords": "cat | face | grinning cat face | mouth | open | smile + happy"
   },
   {
     "no": 103,
     "codes": "1F638",
     "char": "😸",
     "name": "grinning cat face with smiling eyes",
-    "keywords": "cat | eye | face | grin | grinning cat face with smiling eyes | smile"
+    "keywords": "cat | eye | face | grin | grinning cat face with smiling eyes | smile + happy"
   },
   {
     "no": 104,
     "codes": "1F639",
     "char": "😹",
     "name": "cat face with tears of joy",
-    "keywords": "cat | cat face with tears of joy | face | joy | tear"
+    "keywords": "cat | cat face with tears of joy | face | joy | tear + happy + crying"
   },
   {
     "no": 105,
