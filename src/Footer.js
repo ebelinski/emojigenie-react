@@ -21,6 +21,7 @@ export default class Footer extends Component {
   }
 
   render() {
+    const { displayedContent } = this.state;
     return (
       <div className="Footer">
         <button onClick={this.displayContent.bind(this, displayableContent.about)}>About</button>
@@ -31,8 +32,8 @@ export default class Footer extends Component {
         <span> | </span>
         Created and maintained by <a href="https://twitter.com/EugeneBelinski">Eugene <span role="img" aria-label="man technologist">👨🏻‍💻</span></a>
 
-        {this.state.displayedContent === displayableContent.about ? <FooterAbout /> : null}
-        {this.state.displayedContent === displayableContent.help ? <FooterHelp /> : null}
+        {displayedContent === displayableContent.about ? <FooterAbout /> : null}
+        {displayedContent === displayableContent.help ? <FooterHelp /> : null}
       </div>
     );
   }
