@@ -1019,14 +1019,14 @@
     "codes": "1F468 200D 1F3A4",
     "char": "👨‍🎤",
     "name": "man singer",
-    "keywords": "actor | entertainer | man | rock | singer | star"
+    "keywords": "actor | entertainer | man | rock | singer | star + david bowie"
   },
   {
     "no": 147,
     "codes": "1F469 200D 1F3A4",
     "char": "👩‍🎤",
     "name": "woman singer",
-    "keywords": "actor | entertainer | rock | singer | star | woman"
+    "keywords": "actor | entertainer | rock | singer | star | woman + david bowie"
   },
   {
     "no": 148,
@@ -1061,14 +1061,14 @@
     "codes": "1F468 200D 1F680",
     "char": "👨‍🚀",
     "name": "man astronaut",
-    "keywords": "astronaut | man | rocket"
+    "keywords": "astronaut | man | rocket + space + outerspace"
   },
   {
     "no": 153,
     "codes": "1F469 200D 1F680",
     "char": "👩‍🚀",
     "name": "woman astronaut",
-    "keywords": "astronaut | rocket | woman"
+    "keywords": "astronaut | rocket | woman + space + outerspace"
   },
   {
     "no": 154,
@@ -1544,42 +1544,42 @@
     "codes": "1F64D",
     "char": "🙍",
     "name": "person frowning",
-    "keywords": "frown | gesture | person frowning"
+    "keywords": "frown | gesture | person frowning + sad"
   },
   {
     "no": 222,
     "codes": "1F64D 200D 2642 FE0F",
     "char": "🙍‍♂️",
     "name": "man frowning",
-    "keywords": "frowning | gesture | man"
+    "keywords": "frowning | gesture | man + sad"
   },
   {
     "no": 223,
     "codes": "1F64D 200D 2640 FE0F",
     "char": "🙍‍♀️",
     "name": "woman frowning",
-    "keywords": "frowning | gesture | woman"
+    "keywords": "frowning | gesture | woman + sad"
   },
   {
     "no": 224,
     "codes": "1F64E",
     "char": "🙎",
     "name": "person pouting",
-    "keywords": "gesture | person pouting | pouting"
+    "keywords": "gesture | person pouting | pouting + angry"
   },
   {
     "no": 225,
     "codes": "1F64E 200D 2642 FE0F",
     "char": "🙎‍♂️",
     "name": "man pouting",
-    "keywords": "gesture | man | pouting"
+    "keywords": "gesture | man | pouting + angry"
   },
   {
     "no": 226,
     "codes": "1F64E 200D 2640 FE0F",
     "char": "🙎‍♀️",
     "name": "woman pouting",
-    "keywords": "gesture | pouting | woman"
+    "keywords": "gesture | pouting | woman + angry"
   },
   {
     "no": 227,
@@ -1712,21 +1712,21 @@
     "codes": "1F937",
     "char": "🤷",
     "name": "person shrugging",
-    "keywords": "doubt | ignorance | indifference | person shrugging | shrug"
+    "keywords": "doubt | ignorance | indifference | person shrugging | shrug + dunno"
   },
   {
     "no": 246,
     "codes": "1F937 200D 2642 FE0F",
     "char": "🤷‍♂️",
     "name": "man shrugging",
-    "keywords": "doubt | ignorance | indifference | man | man shrugging | shrug"
+    "keywords": "doubt | ignorance | indifference | man | man shrugging | shrug + dunno"
   },
   {
     "no": 247,
     "codes": "1F937 200D 2640 FE0F",
     "char": "🤷‍♀️",
     "name": "woman shrugging",
-    "keywords": "doubt | ignorance | indifference | shrug | woman | woman shrugging"
+    "keywords": "doubt | ignorance | indifference | shrug | woman | woman shrugging + dunno"
   },
   {
     "no": 248,
@@ -2531,7 +2531,7 @@
     "codes": "1F933",
     "char": "🤳",
     "name": "selfie",
-    "keywords": "camera | phone | selfie"
+    "keywords": "camera | phone | selfie + photo"
   },
   {
     "no": 363,
@@ -2671,7 +2671,7 @@
     "codes": "270A",
     "char": "✊",
     "name": "raised fist",
-    "keywords": "clenched | fist | hand | punch | raised fist"
+    "keywords": "clenched | fist | hand | punch | raised fist + solidarity"
   },
   {
     "no": 383,
@@ -2867,7 +2867,7 @@
     "codes": "1F445",
     "char": "👅",
     "name": "tongue",
-    "keywords": "body | tongue"
+    "keywords": "body | tongue + lick"
   },
   {
     "no": 411,
@@ -3035,14 +3035,14 @@
     "codes": "1F4A5",
     "char": "💥",
     "name": "collision",
-    "keywords": "boom | collision | comic"
+    "keywords": "boom | collision | comic + explosion + explode + disaster"
   },
   {
     "no": 435,
     "codes": "1F4A6",
     "char": "💦",
     "name": "sweat droplets",
-    "keywords": "comic | splashing | sweat | sweat droplets"
+    "keywords": "comic | splashing | sweat | sweat droplets + water"
   },
   {
     "no": 436,
@@ -3105,7 +3105,7 @@
     "codes": "1F576",
     "char": "🕶",
     "name": "sunglasses",
-    "keywords": "dark | eye | eyewear | glasses | sunglasses"
+    "keywords": "dark | eye | eyewear | glasses | sunglasses + cool"
   },
   {
     "no": 445,
@@ -3182,14 +3182,14 @@
     "codes": "1F458",
     "char": "👘",
     "name": "kimono",
-    "keywords": "clothing | kimono"
+    "keywords": "clothing | kimono + japan"
   },
   {
     "no": 456,
     "codes": "1F459",
     "char": "👙",
     "name": "bikini",
-    "keywords": "bikini | clothing | swim"
+    "keywords": "bikini | clothing | swim + beach"
   },
   {
     "no": 457,
