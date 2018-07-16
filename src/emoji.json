@@ -3196,7 +3196,7 @@
     "codes": "1F45A",
     "char": "👚",
     "name": "woman’s clothes",
-    "keywords": "clothing | woman | woman’s clothes"
+    "keywords": "clothing | woman | woman’s clothes + shirt"
   },
   {
     "no": 458,
@@ -3224,7 +3224,7 @@
     "codes": "1F6CD",
     "char": "🛍",
     "name": "shopping bags",
-    "keywords": "bag | hotel | shopping | shopping bags"
+    "keywords": "bag | hotel | shopping | shopping bags + commerce"
   },
   {
     "no": 462,
@@ -3238,14 +3238,14 @@
     "codes": "1F45E",
     "char": "👞",
     "name": "man’s shoe",
-    "keywords": "clothing | man | man’s shoe | shoe"
+    "keywords": "clothing | man | man’s shoe | shoe + shoes"
   },
   {
     "no": 464,
     "codes": "1F45F",
     "char": "👟",
     "name": "running shoe",
-    "keywords": "athletic | clothing | running shoe | shoe | sneaker"
+    "keywords": "athletic | clothing | running shoe | shoe | sneaker + shoes"
   },
   {
     "no": 465,
@@ -3287,7 +3287,7 @@
     "codes": "1F451",
     "char": "👑",
     "name": "crown",
-    "keywords": "clothing | crown | king | queen"
+    "keywords": "clothing | crown | king | queen + princess + prince"
   },
   {
     "no": 471,
@@ -3308,21 +3308,21 @@
     "codes": "1F393",
     "char": "🎓",
     "name": "graduation cap",
-    "keywords": "cap | celebration | clothing | graduation | hat"
+    "keywords": "cap | celebration | clothing | graduation | hat + graduate"
   },
   {
     "no": 474,
     "codes": "1F9E2",
     "char": "🧢",
     "name": "billed cap",
-    "keywords": "baseball cap | billed cap"
+    "keywords": "baseball cap | billed cap + hat"
   },
   {
     "no": 475,
     "codes": "26D1",
     "char": "⛑",
     "name": "rescue worker’s helmet",
-    "keywords": "aid | cross | face | hat | helmet | rescue worker’s helmet"
+    "keywords": "aid | cross | face | hat | helmet | rescue worker’s helmet + emergency"
   },
   {
     "no": 476,
@@ -3336,7 +3336,7 @@
     "codes": "1F484",
     "char": "💄",
     "name": "lipstick",
-    "keywords": "cosmetics | lipstick | makeup"
+    "keywords": "cosmetics | lipstick | makeup + red"
   },
   {
     "no": 478,
@@ -3630,7 +3630,7 @@
     "codes": "1F401",
     "char": "🐁",
     "name": "mouse",
-    "keywords": "mouse"
+    "keywords": "mouse + mice"
   },
   {
     "no": 520,
@@ -3882,14 +3882,14 @@
     "codes": "1F995",
     "char": "🦕",
     "name": "sauropod",
-    "keywords": "brachiosaurus | brontosaurus | diplodocus | sauropod"
+    "keywords": "brachiosaurus | brontosaurus | diplodocus | sauropod + dinosaur"
   },
   {
     "no": 556,
     "codes": "1F996",
     "char": "🦖",
     "name": "T-Rex",
-    "keywords": "T-Rex | Tyrannosaurus Rex"
+    "keywords": "T-Rex | Tyrannosaurus Rex + dinosaur"
   },
   {
     "no": 557,
@@ -3945,14 +3945,14 @@
     "codes": "1F419",
     "char": "🐙",
     "name": "octopus",
-    "keywords": "octopus"
+    "keywords": "octopus + octopi"
   },
   {
     "no": 565,
     "codes": "1F41A",
     "char": "🐚",
     "name": "spiral shell",
-    "keywords": "shell | spiral"
+    "keywords": "shell | spiral + conch shell"
   },
   {
     "no": 566,
@@ -4141,7 +4141,7 @@
     "codes": "1F331",
     "char": "🌱",
     "name": "seedling",
-    "keywords": "seedling | young"
+    "keywords": "seedling | young + plant"
   },
   {
     "no": 593,
@@ -4624,7 +4624,7 @@
     "codes": "1F371",
     "char": "🍱",
     "name": "bento box",
-    "keywords": "bento | box"
+    "keywords": "bento | box + meal"
   },
   {
     "no": 662,
@@ -4687,7 +4687,7 @@
     "codes": "1F363",
     "char": "🍣",
     "name": "sushi",
-    "keywords": "sushi"
+    "keywords": "sushi + Japanese"
   },
   {
     "no": 671,
@@ -4869,63 +4869,63 @@
     "codes": "1F376",
     "char": "🍶",
     "name": "sake",
-    "keywords": "bar | beverage | bottle | cup | drink | sake"
+    "keywords": "bar | beverage | bottle | cup | drink | sake + alcohol"
   },
   {
     "no": 697,
     "codes": "1F37E",
     "char": "🍾",
     "name": "bottle with popping cork",
-    "keywords": "bar | bottle | bottle with popping cork | cork | drink | popping"
+    "keywords": "bar | bottle | bottle with popping cork | cork | drink | popping + alcohol"
   },
   {
     "no": 698,
     "codes": "1F377",
     "char": "🍷",
     "name": "wine glass",
-    "keywords": "bar | beverage | drink | glass | wine"
+    "keywords": "bar | beverage | drink | glass | wine + alcohol"
   },
   {
     "no": 699,
     "codes": "1F378",
     "char": "🍸",
     "name": "cocktail glass",
-    "keywords": "bar | cocktail | drink | glass"
+    "keywords": "bar | cocktail | drink | glass + alcohol"
   },
   {
     "no": 700,
     "codes": "1F379",
     "char": "🍹",
     "name": "tropical drink",
-    "keywords": "bar | drink | tropical"
+    "keywords": "bar | drink | tropical + alcohol"
   },
   {
     "no": 701,
     "codes": "1F37A",
     "char": "🍺",
     "name": "beer mug",
-    "keywords": "bar | beer | drink | mug"
+    "keywords": "bar | beer | drink | mug + alcohol"
   },
   {
     "no": 702,
     "codes": "1F37B",
     "char": "🍻",
     "name": "clinking beer mugs",
-    "keywords": "bar | beer | clink | clinking beer mugs | drink | mug"
+    "keywords": "bar | beer | clink | clinking beer mugs | drink | mug + alcohol"
   },
   {
     "no": 703,
     "codes": "1F942",
     "char": "🥂",
     "name": "clinking glasses",
-    "keywords": "celebrate | clink | clinking glasses | drink | glass"
+    "keywords": "celebrate | clink | clinking glasses | drink | glass + alcohol"
   },
   {
     "no": 704,
     "codes": "1F943",
     "char": "🥃",
     "name": "tumbler glass",
-    "keywords": "glass | liquor | shot | tumbler | whisky"
+    "keywords": "glass | liquor | shot | tumbler | whisky + alcohol"
   },
   {
     "no": 705,
@@ -4981,35 +4981,35 @@
     "codes": "1F30D",
     "char": "🌍",
     "name": "globe showing Europe-Africa",
-    "keywords": "Africa | earth | Europe | globe | globe showing Europe-Africa | world"
+    "keywords": "Africa | earth | Europe | globe | globe showing Europe-Africa | world + planet"
   },
   {
     "no": 713,
     "codes": "1F30E",
     "char": "🌎",
     "name": "globe showing Americas",
-    "keywords": "Americas | earth | globe | globe showing Americas | world"
+    "keywords": "Americas | earth | globe | globe showing Americas | world + planet"
   },
   {
     "no": 714,
     "codes": "1F30F",
     "char": "🌏",
     "name": "globe showing Asia-Australia",
-    "keywords": "Asia | Australia | earth | globe | globe showing Asia-Australia | world"
+    "keywords": "Asia | Australia | earth | globe | globe showing Asia-Australia | world + planet"
   },
   {
     "no": 715,
     "codes": "1F310",
     "char": "🌐",
     "name": "globe with meridians",
-    "keywords": "earth | globe | globe with meridians | meridians | world"
+    "keywords": "earth | globe | globe with meridians | meridians | world + planet"
   },
   {
     "no": 716,
     "codes": "1F5FA",
     "char": "🗺",
     "name": "world map",
-    "keywords": "map | world"
+    "keywords": "map | world + earth"
   },
   {
     "no": 717,
@@ -5247,14 +5247,14 @@
     "codes": "1F5FC",
     "char": "🗼",
     "name": "Tokyo tower",
-    "keywords": "Tokyo | tower"
+    "keywords": "Tokyo | tower + Japan"
   },
   {
     "no": 751,
     "codes": "1F5FD",
     "char": "🗽",
     "name": "Statue of Liberty",
-    "keywords": "liberty | statue | Statue of Liberty"
+    "keywords": "liberty | statue | Statue of Liberty + NYC + New York City"
   },
   {
     "no": 752,
@@ -5555,14 +5555,14 @@
     "codes": "1F695",
     "char": "🚕",
     "name": "taxi",
-    "keywords": "taxi | vehicle"
+    "keywords": "taxi | vehicle + car"
   },
   {
     "no": 795,
     "codes": "1F696",
     "char": "🚖",
     "name": "oncoming taxi",
-    "keywords": "oncoming | taxi"
+    "keywords": "oncoming | taxi + car"
   },
   {
     "no": 796,
@@ -5583,7 +5583,7 @@
     "codes": "1F699",
     "char": "🚙",
     "name": "sport utility vehicle",
-    "keywords": "recreational | sport utility | sport utility vehicle"
+    "keywords": "recreational | sport utility | sport utility vehicle + car"
   },
   {
     "no": 799,
@@ -5611,14 +5611,14 @@
     "codes": "1F6B2",
     "char": "🚲",
     "name": "bicycle",
-    "keywords": "bicycle | bike"
+    "keywords": "bicycle | bike + cycling"
   },
   {
     "no": 803,
     "codes": "1F6F4",
     "char": "🛴",
     "name": "kick scooter",
-    "keywords": "kick | scooter"
+    "keywords": "kick | scooter + bird"
   },
   {
     "no": 804,
@@ -5639,7 +5639,7 @@
     "codes": "1F68F",
     "char": "🚏",
     "name": "bus stop",
-    "keywords": "bus | busstop | stop"
+    "keywords": "bus | busstop | stop + transportation"
   },
   {
     "no": 807,
@@ -5835,7 +5835,7 @@
     "codes": "1F680",
     "char": "🚀",
     "name": "rocket",
-    "keywords": "rocket | space"
+    "keywords": "rocket | space + rocketship + blast + blastoff"
   },
   {
     "no": 835,
@@ -5912,168 +5912,168 @@
     "codes": "1F55B",
     "char": "🕛",
     "name": "twelve o’clock",
-    "keywords": "00 | 12 | 12:00 | clock | o’clock | twelve"
+    "keywords": "00 | 12 | 12:00 | clock | o’clock | twelve + time"
   },
   {
     "no": 846,
     "codes": "1F567",
     "char": "🕧",
     "name": "twelve-thirty",
-    "keywords": "12 | 12:30 | 30 | clock | thirty | twelve | twelve-thirty"
+    "keywords": "12 | 12:30 | 30 | clock | thirty | twelve | twelve-thirty + time"
   },
   {
     "no": 847,
     "codes": "1F550",
     "char": "🕐",
     "name": "one o’clock",
-    "keywords": "00 | 1 | 1:00 | clock | o’clock | one"
+    "keywords": "00 | 1 | 1:00 | clock | o’clock | one + time"
   },
   {
     "no": 848,
     "codes": "1F55C",
     "char": "🕜",
     "name": "one-thirty",
-    "keywords": "1 | 1:30 | 30 | clock | one | one-thirty | thirty"
+    "keywords": "1 | 1:30 | 30 | clock | one | one-thirty | thirty + time"
   },
   {
     "no": 849,
     "codes": "1F551",
     "char": "🕑",
     "name": "two o’clock",
-    "keywords": "00 | 2 | 2:00 | clock | o’clock | two"
+    "keywords": "00 | 2 | 2:00 | clock | o’clock | two + time"
   },
   {
     "no": 850,
     "codes": "1F55D",
     "char": "🕝",
     "name": "two-thirty",
-    "keywords": "2 | 2:30 | 30 | clock | thirty | two | two-thirty"
+    "keywords": "2 | 2:30 | 30 | clock | thirty | two | two-thirty + time"
   },
   {
     "no": 851,
     "codes": "1F552",
     "char": "🕒",
     "name": "three o’clock",
-    "keywords": "00 | 3 | 3:00 | clock | o’clock | three"
+    "keywords": "00 | 3 | 3:00 | clock | o’clock | three + time"
   },
   {
     "no": 852,
     "codes": "1F55E",
     "char": "🕞",
     "name": "three-thirty",
-    "keywords": "3 | 3:30 | 30 | clock | thirty | three | three-thirty"
+    "keywords": "3 | 3:30 | 30 | clock | thirty | three | three-thirty + time"
   },
   {
     "no": 853,
     "codes": "1F553",
     "char": "🕓",
     "name": "four o’clock",
-    "keywords": "00 | 4 | 4:00 | clock | four | o’clock"
+    "keywords": "00 | 4 | 4:00 | clock | four | o’clock + time"
   },
   {
     "no": 854,
     "codes": "1F55F",
     "char": "🕟",
     "name": "four-thirty",
-    "keywords": "30 | 4 | 4:30 | clock | four | four-thirty | thirty"
+    "keywords": "30 | 4 | 4:30 | clock | four | four-thirty | thirty + time"
   },
   {
     "no": 855,
     "codes": "1F554",
     "char": "🕔",
     "name": "five o’clock",
-    "keywords": "00 | 5 | 5:00 | clock | five | o’clock"
+    "keywords": "00 | 5 | 5:00 | clock | five | o’clock + time"
   },
   {
     "no": 856,
     "codes": "1F560",
     "char": "🕠",
     "name": "five-thirty",
-    "keywords": "30 | 5 | 5:30 | clock | five | five-thirty | thirty"
+    "keywords": "30 | 5 | 5:30 | clock | five | five-thirty | thirty + time"
   },
   {
     "no": 857,
     "codes": "1F555",
     "char": "🕕",
     "name": "six o’clock",
-    "keywords": "00 | 6 | 6:00 | clock | o’clock | six"
+    "keywords": "00 | 6 | 6:00 | clock | o’clock | six + time"
   },
   {
     "no": 858,
     "codes": "1F561",
     "char": "🕡",
     "name": "six-thirty",
-    "keywords": "30 | 6 | 6:30 | clock | six | six-thirty | thirty"
+    "keywords": "30 | 6 | 6:30 | clock | six | six-thirty | thirty + time"
   },
   {
     "no": 859,
     "codes": "1F556",
     "char": "🕖",
     "name": "seven o’clock",
-    "keywords": "00 | 7 | 7:00 | clock | o’clock | seven"
+    "keywords": "00 | 7 | 7:00 | clock | o’clock | seven + time"
   },
   {
     "no": 860,
     "codes": "1F562",
     "char": "🕢",
     "name": "seven-thirty",
-    "keywords": "30 | 7 | 7:30 | clock | seven | seven-thirty | thirty"
+    "keywords": "30 | 7 | 7:30 | clock | seven | seven-thirty | thirty + time"
   },
   {
     "no": 861,
     "codes": "1F557",
     "char": "🕗",
     "name": "eight o’clock",
-    "keywords": "00 | 8 | 8:00 | clock | eight | o’clock"
+    "keywords": "00 | 8 | 8:00 | clock | eight | o’clock + time"
   },
   {
     "no": 862,
     "codes": "1F563",
     "char": "🕣",
     "name": "eight-thirty",
-    "keywords": "30 | 8 | 8:30 | clock | eight | eight-thirty | thirty"
+    "keywords": "30 | 8 | 8:30 | clock | eight | eight-thirty | thirty + time"
   },
   {
     "no": 863,
     "codes": "1F558",
     "char": "🕘",
     "name": "nine o’clock",
-    "keywords": "00 | 9 | 9:00 | clock | nine | o’clock"
+    "keywords": "00 | 9 | 9:00 | clock | nine | o’clock + time"
   },
   {
     "no": 864,
     "codes": "1F564",
     "char": "🕤",
     "name": "nine-thirty",
-    "keywords": "30 | 9 | 9:30 | clock | nine | nine-thirty | thirty"
+    "keywords": "30 | 9 | 9:30 | clock | nine | nine-thirty | thirty + time"
   },
   {
     "no": 865,
     "codes": "1F559",
     "char": "🕙",
     "name": "ten o’clock",
-    "keywords": "00 | 10 | 10:00 | clock | o’clock | ten"
+    "keywords": "00 | 10 | 10:00 | clock | o’clock | ten + time"
   },
   {
     "no": 866,
     "codes": "1F565",
     "char": "🕥",
     "name": "ten-thirty",
-    "keywords": "10 | 10:30 | 30 | clock | ten | ten-thirty | thirty"
+    "keywords": "10 | 10:30 | 30 | clock | ten | ten-thirty | thirty + time"
   },
   {
     "no": 867,
     "codes": "1F55A",
     "char": "🕚",
     "name": "eleven o’clock",
-    "keywords": "00 | 11 | 11:00 | clock | eleven | o’clock"
+    "keywords": "00 | 11 | 11:00 | clock | eleven | o’clock + time"
   },
   {
     "no": 868,
     "codes": "1F566",
     "char": "🕦",
     "name": "eleven-thirty",
-    "keywords": "11 | 11:30 | 30 | clock | eleven | eleven-thirty | thirty"
+    "keywords": "11 | 11:30 | 30 | clock | eleven | eleven-thirty | thirty + time"
   },
   {
     "no": 869,
@@ -6164,7 +6164,7 @@
     "codes": "1F321",
     "char": "🌡",
     "name": "thermometer",
-    "keywords": "thermometer | weather"
+    "keywords": "thermometer | weather + temperature"
   },
   {
     "no": 882,
@@ -6220,112 +6220,112 @@
     "codes": "26C5",
     "char": "⛅",
     "name": "sun behind cloud",
-    "keywords": "cloud | sun | sun behind cloud"
+    "keywords": "cloud | sun | sun behind cloud + weather"
   },
   {
     "no": 890,
     "codes": "26C8",
     "char": "⛈",
     "name": "cloud with lightning and rain",
-    "keywords": "cloud | cloud with lightning and rain | rain | thunder"
+    "keywords": "cloud | cloud with lightning and rain | rain | thunder + weather"
   },
   {
     "no": 891,
     "codes": "1F324",
     "char": "🌤",
     "name": "sun behind small cloud",
-    "keywords": "cloud | sun | sun behind small cloud"
+    "keywords": "cloud | sun | sun behind small cloud + weather"
   },
   {
     "no": 892,
     "codes": "1F325",
     "char": "🌥",
     "name": "sun behind large cloud",
-    "keywords": "cloud | sun | sun behind large cloud"
+    "keywords": "cloud | sun | sun behind large cloud + weather"
   },
   {
     "no": 893,
     "codes": "1F326",
     "char": "🌦",
     "name": "sun behind rain cloud",
-    "keywords": "cloud | rain | sun | sun behind rain cloud"
+    "keywords": "cloud | rain | sun | sun behind rain cloud + weather"
   },
   {
     "no": 894,
     "codes": "1F327",
     "char": "🌧",
     "name": "cloud with rain",
-    "keywords": "cloud | cloud with rain | rain"
+    "keywords": "cloud | cloud with rain | rain + weather"
   },
   {
     "no": 895,
     "codes": "1F328",
     "char": "🌨",
     "name": "cloud with snow",
-    "keywords": "cloud | cloud with snow | cold | snow"
+    "keywords": "cloud | cloud with snow | cold | snow + weather"
   },
   {
     "no": 896,
     "codes": "1F329",
     "char": "🌩",
     "name": "cloud with lightning",
-    "keywords": "cloud | cloud with lightning | lightning"
+    "keywords": "cloud | cloud with lightning | lightning + weather"
   },
   {
     "no": 897,
     "codes": "1F32A",
     "char": "🌪",
     "name": "tornado",
-    "keywords": "cloud | tornado | whirlwind"
+    "keywords": "cloud | tornado | whirlwind + weather"
   },
   {
     "no": 898,
     "codes": "1F32B",
     "char": "🌫",
     "name": "fog",
-    "keywords": "cloud | fog"
+    "keywords": "cloud | fog + weather"
   },
   {
     "no": 899,
     "codes": "1F32C",
     "char": "🌬",
     "name": "wind face",
-    "keywords": "blow | cloud | face | wind"
+    "keywords": "blow | cloud | face | wind + weather"
   },
   {
     "no": 900,
     "codes": "1F300",
     "char": "🌀",
     "name": "cyclone",
-    "keywords": "cyclone | dizzy | hurricane | twister | typhoon"
+    "keywords": "cyclone | dizzy | hurricane | twister | typhoon + weather"
   },
   {
     "no": 901,
     "codes": "1F308",
     "char": "🌈",
     "name": "rainbow",
-    "keywords": "rain | rainbow"
+    "keywords": "rain | rainbow + lgbt"
   },
   {
     "no": 902,
     "codes": "1F302",
     "char": "🌂",
     "name": "closed umbrella",
-    "keywords": "closed umbrella | clothing | rain | umbrella"
+    "keywords": "closed umbrella | clothing | rain | umbrella + weather"
   },
   {
     "no": 903,
     "codes": "2602",
     "char": "☂",
     "name": "umbrella",
-    "keywords": "clothing | rain | umbrella"
+    "keywords": "clothing | rain | umbrella + weather"
   },
   {
     "no": 904,
     "codes": "2614",
     "char": "☔",
     "name": "umbrella with rain drops",
-    "keywords": "clothing | drop | rain | umbrella | umbrella with rain drops"
+    "keywords": "clothing | drop | rain | umbrella | umbrella with rain drops + weather"
   },
   {
     "no": 905,
@@ -6374,14 +6374,14 @@
     "codes": "1F525",
     "char": "🔥",
     "name": "fire",
-    "keywords": "fire | flame | tool"
+    "keywords": "fire | flame | tool + boom + hot"
   },
   {
     "no": 912,
     "codes": "1F4A7",
     "char": "💧",
     "name": "droplet",
-    "keywords": "cold | comic | drop | droplet | sweat"
+    "keywords": "cold | comic | drop | droplet | sweat + vapor"
   },
   {
     "no": 913,
@@ -6780,7 +6780,7 @@
     "codes": "1F52E",
     "char": "🔮",
     "name": "crystal ball",
-    "keywords": "ball | crystal | fairy tale | fantasy | fortune | tool"
+    "keywords": "ball | crystal | fairy tale | fantasy | fortune | tool + future"
   },
   {
     "no": 970,
@@ -6794,28 +6794,28 @@
     "codes": "1F3AE",
     "char": "🎮",
     "name": "video game",
-    "keywords": "controller | game | video game"
+    "keywords": "controller | game | video game + gaming"
   },
   {
     "no": 972,
     "codes": "1F579",
     "char": "🕹",
     "name": "joystick",
-    "keywords": "game | joystick | video game"
+    "keywords": "game | joystick | video game + gaming"
   },
   {
     "no": 973,
     "codes": "1F3B0",
     "char": "🎰",
     "name": "slot machine",
-    "keywords": "game | slot | slot machine"
+    "keywords": "game | slot | slot machine + gambling + gamble"
   },
   {
     "no": 974,
     "codes": "1F3B2",
     "char": "🎲",
     "name": "game die",
-    "keywords": "dice | die | game"
+    "keywords": "dice | die | game + gambling + gamble"
   },
   {
     "no": 975,
@@ -6906,7 +6906,7 @@
     "codes": "1F3A8",
     "char": "🎨",
     "name": "artist palette",
-    "keywords": "art | artist palette | museum | painting | palette"
+    "keywords": "art | artist palette | museum | painting | palette + graphics + design"
   },
   {
     "no": 988,
@@ -6962,7 +6962,7 @@
     "codes": "1F4E3",
     "char": "📣",
     "name": "megaphone",
-    "keywords": "cheering | megaphone"
+    "keywords": "cheering | megaphone + signal boost + loud + noise + noisy + announcement"
   },
   {
     "no": 996,
@@ -6976,7 +6976,7 @@
     "codes": "1F514",
     "char": "🔔",
     "name": "bell",
-    "keywords": "bell"
+    "keywords": "bell + ding"
   },
   {
     "no": 998,
@@ -7032,21 +7032,21 @@
     "codes": "1F3A4",
     "char": "🎤",
     "name": "microphone",
-    "keywords": "karaoke | mic | microphone"
+    "keywords": "karaoke | mic | microphone + music + concert"
   },
   {
     "no": 1006,
     "codes": "1F3A7",
     "char": "🎧",
     "name": "headphone",
-    "keywords": "earbud | headphone"
+    "keywords": "earbud | headphone + music"
   },
   {
     "no": 1007,
     "codes": "1F4FB",
     "char": "📻",
     "name": "radio",
-    "keywords": "radio | video"
+    "keywords": "radio | video + "
   },
   {
     "no": 1008,
@@ -7095,14 +7095,14 @@
     "codes": "1F4F1",
     "char": "📱",
     "name": "mobile phone",
-    "keywords": "cell | mobile | phone | telephone"
+    "keywords": "cell | mobile | phone | telephone + iPhone"
   },
   {
     "no": 1015,
     "codes": "1F4F2",
     "char": "📲",
     "name": "mobile phone with arrow",
-    "keywords": "arrow | call | cell | mobile | mobile phone with arrow | phone | receive | telephone"
+    "keywords": "arrow | call | cell | mobile | mobile phone with arrow | phone | receive | telephone + iPhone"
   },
   {
     "no": 1016,
@@ -7151,14 +7151,14 @@
     "codes": "1F4BB",
     "char": "💻",
     "name": "laptop computer",
-    "keywords": "computer | laptop computer | pc | personal"
+    "keywords": "computer | laptop computer | pc | personal + macbook + mbp"
   },
   {
     "no": 1023,
     "codes": "1F5A5",
     "char": "🖥",
     "name": "desktop computer",
-    "keywords": "computer | desktop"
+    "keywords": "computer | desktop + pc + imac + mac"
   },
   {
     "no": 1024,
@@ -7382,7 +7382,7 @@
     "codes": "1F4D3",
     "char": "📓",
     "name": "notebook",
-    "keywords": "notebook"
+    "keywords": "notebook + notes"
   },
   {
     "no": 1056,
@@ -7396,7 +7396,7 @@
     "codes": "1F4C3",
     "char": "📃",
     "name": "page with curl",
-    "keywords": "curl | document | page | page with curl"
+    "keywords": "curl | document | page | page with curl + notes"
   },
   {
     "no": 1058,
@@ -7438,7 +7438,7 @@
     "codes": "1F516",
     "char": "🔖",
     "name": "bookmark",
-    "keywords": "bookmark | mark"
+    "keywords": "bookmark | mark + favorite"
   },
   {
     "no": 1064,
@@ -7452,7 +7452,7 @@
     "codes": "1F4B0",
     "char": "💰",
     "name": "money bag",
-    "keywords": "bag | dollar | money | moneybag"
+    "keywords": "bag | dollar | money | moneybag + cash + rich"
   },
   {
     "no": 1066,
@@ -7466,35 +7466,35 @@
     "codes": "1F4B5",
     "char": "💵",
     "name": "dollar banknote",
-    "keywords": "bank | banknote | bill | currency | dollar | money | note"
+    "keywords": "bank | banknote | bill | currency | dollar | money | note + cash"
   },
   {
     "no": 1068,
     "codes": "1F4B6",
     "char": "💶",
     "name": "euro banknote",
-    "keywords": "bank | banknote | bill | currency | euro | money | note"
+    "keywords": "bank | banknote | bill | currency | euro | money | note + cash"
   },
   {
     "no": 1069,
     "codes": "1F4B7",
     "char": "💷",
     "name": "pound banknote",
-    "keywords": "bank | banknote | bill | currency | money | note | pound"
+    "keywords": "bank | banknote | bill | currency | money | note | pound + cash"
   },
   {
     "no": 1070,
     "codes": "1F4B8",
     "char": "💸",
     "name": "money with wings",
-    "keywords": "bank | banknote | bill | dollar | fly | money | money with wings | note | wings"
+    "keywords": "bank | banknote | bill | dollar | fly | money | money with wings | note | wings + cash"
   },
   {
     "no": 1071,
     "codes": "1F4B3",
     "char": "💳",
     "name": "credit card",
-    "keywords": "bank | card | credit | money"
+    "keywords": "bank | card | credit | money + cash"
   },
   {
     "no": 1072,
@@ -7522,7 +7522,7 @@
     "codes": "1F4B2",
     "char": "💲",
     "name": "heavy dollar sign",
-    "keywords": "currency | dollar | heavy dollar sign | money"
+    "keywords": "currency | dollar | heavy dollar sign | money + cash"
   },
   {
     "no": 1076,
