@@ -4,7 +4,7 @@
     "codes": "1F600",
     "char": "😀",
     "name": "grinning face",
-    "keywords": "face | grin | grinning face + happy"
+    "keywords": "face | grin | grinning face + happy + :D"
   },
   {
     "no": 2,
@@ -32,14 +32,14 @@
     "codes": "1F603",
     "char": "😃",
     "name": "grinning face with big eyes",
-    "keywords": "face | grinning face with big eyes | mouth | open | smile + happy"
+    "keywords": "face | grinning face with big eyes | mouth | open | smile + happy + :D"
   },
   {
     "no": 6,
     "codes": "1F604",
     "char": "😄",
     "name": "grinning face with smiling eyes",
-    "keywords": "eye | face | grinning face with smiling eyes | mouth | open | smile + happy"
+    "keywords": "eye | face | grinning face with smiling eyes | mouth | open | smile + happy + ^o^"
   },
   {
     "no": 7,
@@ -60,21 +60,21 @@
     "codes": "1F609",
     "char": "😉",
     "name": "winking face",
-    "keywords": "face | wink | winking face + happy"
+    "keywords": "face | wink | winking face + happy + ;)"
   },
   {
     "no": 10,
     "codes": "1F60A",
     "char": "😊",
     "name": "smiling face with smiling eyes",
-    "keywords": "blush | eye | face | smile | smiling face with smiling eyes + happy"
+    "keywords": "blush | eye | face | smile | smiling face with smiling eyes + happy + :)"
   },
   {
     "no": 11,
     "codes": "1F60B",
     "char": "😋",
     "name": "face savoring food",
-    "keywords": "delicious | face | face savoring food | savouring | smile | um | yum + tongue"
+    "keywords": "delicious | face | face savoring food | savouring | smile | um | yum + tongue + :P"
   },
   {
     "no": 12,
@@ -95,7 +95,7 @@
     "codes": "1F618",
     "char": "😘",
     "name": "face blowing a kiss",
-    "keywords": "face | face blowing a kiss | kiss + heart"
+    "keywords": "face | face blowing a kiss | kiss + heart + :*"
   },
   {
     "no": 15,
@@ -109,21 +109,21 @@
     "codes": "1F617",
     "char": "😗",
     "name": "kissing face",
-    "keywords": "face | kiss | kissing face"
+    "keywords": "face | kiss | kissing face + :*"
   },
   {
     "no": 17,
     "codes": "1F619",
     "char": "😙",
     "name": "kissing face with smiling eyes",
-    "keywords": "eye | face | kiss | kissing face with smiling eyes | smile"
+    "keywords": "eye | face | kiss | kissing face with smiling eyes | smile + :*"
   },
   {
     "no": 18,
     "codes": "1F61A",
     "char": "😚",
     "name": "kissing face with closed eyes",
-    "keywords": "closed | eye | face | kiss | kissing face with closed eyes"
+    "keywords": "closed | eye | face | kiss | kissing face with closed eyes + :*"
   },
   {
     "no": 19,
@@ -137,7 +137,7 @@
     "codes": "1F642",
     "char": "🙂",
     "name": "slightly smiling face",
-    "keywords": "face | slightly smiling face | smile + happy"
+    "keywords": "face | slightly smiling face | smile + happy + :)"
   },
   {
     "no": 21,
@@ -172,14 +172,14 @@
     "codes": "1F610",
     "char": "😐",
     "name": "neutral face",
-    "keywords": "deadpan | face | neutral + bored"
+    "keywords": "deadpan | face | neutral + bored + :|"
   },
   {
     "no": 26,
     "codes": "1F611",
     "char": "😑",
     "name": "expressionless face",
-    "keywords": "expressionless | face | inexpressive | unexpressive + bored"
+    "keywords": "expressionless | face | inexpressive | unexpressive + bored + -_-"
   },
   {
     "no": 27,
@@ -221,7 +221,7 @@
     "codes": "1F62E",
     "char": "😮",
     "name": "face with open mouth",
-    "keywords": "face | face with open mouth | mouth | open | sympathy + shocked + surprised"
+    "keywords": "face | face with open mouth | mouth | open | sympathy + shocked + surprised + :O"
   },
   {
     "no": 33,
@@ -347,14 +347,14 @@
     "codes": "2639",
     "char": "☹",
     "name": "frowning face",
-    "keywords": "face | frown | frowning face"
+    "keywords": "face | frown | frowning face + :("
   },
   {
     "no": 51,
     "codes": "1F641",
     "char": "🙁",
     "name": "slightly frowning face",
-    "keywords": "face | frown | slightly frowning face + sad"
+    "keywords": "face | frown | slightly frowning face + sad + :("
   },
   {
     "no": 52,
@@ -368,7 +368,7 @@
     "codes": "1F61E",
     "char": "😞",
     "name": "disappointed face",
-    "keywords": "disappointed | face + sad"
+    "keywords": "disappointed | face + sad + :("
   },
   {
     "no": 54,
@@ -389,35 +389,35 @@
     "codes": "1F622",
     "char": "😢",
     "name": "crying face",
-    "keywords": "cry | crying face | face | sad | tear + sad"
+    "keywords": "cry | crying face | face | sad | tear + sad + ;("
   },
   {
     "no": 57,
     "codes": "1F62D",
     "char": "😭",
     "name": "loudly crying face",
-    "keywords": "cry | face | loudly crying face | sad | sob | tear + sad"
+    "keywords": "cry | face | loudly crying face | sad | sob | tear + sad + T_T + ToT"
   },
   {
     "no": 58,
     "codes": "1F626",
     "char": "😦",
     "name": "frowning face with open mouth",
-    "keywords": "face | frown | frowning face with open mouth | mouth | open + shocked"
+    "keywords": "face | frown | frowning face with open mouth | mouth | open + shocked + D:"
   },
   {
     "no": 59,
     "codes": "1F627",
     "char": "😧",
     "name": "anguished face",
-    "keywords": "anguished | face + shocked"
+    "keywords": "anguished | face + shocked + D:"
   },
   {
     "no": 60,
     "codes": "1F628",
     "char": "😨",
     "name": "fearful face",
-    "keywords": "face | fear | fearful | scared + sad"
+    "keywords": "face | fear | fearful | scared + sad + D:"
   },
   {
     "no": 61,
@@ -431,7 +431,7 @@
     "codes": "1F92F",
     "char": "🤯",
     "name": "exploding head",
-    "keywords": "exploding head | shocked + mindblown + mind blown + mushroom"
+    "keywords": "exploding head | shocked + mindblown + mind blown + mushroom + :O"
   },
   {
     "no": 63,
