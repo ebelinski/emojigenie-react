@@ -5,6 +5,7 @@ import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
 import ReactTooltip from 'react-tooltip';
 import Notifications, {notify} from 'react-notify-toast';
+import { isMobile } from 'react-device-detect';
 
 const mapStateToProps = state => ({
   emojis: state.emojis,
@@ -71,7 +72,7 @@ class Genie extends Component {
             onChange={this.handleChange.bind(this)} />
         </div>
         <div className="emojis">{emojiItems}</div>
-        <ReactTooltip />
+        {isMobile ? null : <ReactTooltip />}
       </div>
     );
   }
