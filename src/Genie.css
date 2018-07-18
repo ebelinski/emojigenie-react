@@ -29,15 +29,15 @@ input {
 .emojis {
   padding-top: 0.9em;
   text-align: center;
-  font-size: 55px;
-  line-height: 1em;
+  font-size: 4rem;
+  line-height: 3.5rem;
   overflow: hidden;
 }
 
 .emoji-container {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 4rem;
+  height: 4rem;
 } .emoji-container:hover {
   background: #666;
   border-radius: 5px;

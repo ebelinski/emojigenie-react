@@ -1,6 +1,62 @@
 .App {
   text-align: left;
   margin: 0 auto;
-  max-width: 800px;
-  padding: 0px 15px;
+  max-width: 48rem;
+  padding: 0px;
+  margin-left: 1rem auto;
+  margin-right: 1rem auto;
+}
+
+@media screen and (min-width: 18rem) {
+  .App {
+    width: 16rem;
+  }
+}
+
+@media screen and (min-width: 22rem) {
+  .App {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 26rem) {
+  .App {
+    width: 24rem;
+  }
+}
+
+@media screen and (min-width: 30rem) {
+  .App {
+    width: 28rem;
+  }
+}
+
+@media screen and (min-width: 34rem) {
+  .App {
+    width: 32rem;
+  }
+}
+
+@media screen and (min-width: 38rem) {
+  .App {
+    width: 36rem;
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .App {
+    width: 40rem;
+  }
+}
+
+@media screen and (min-width: 46rem) {
+  .App {
+    width: 44rem;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .App {
+    width: 48rem;
+  }
 }
