@@ -10021,7 +10021,7 @@
     "codes": "1F1E8 1F1F3",
     "char": "🇨🇳",
     "name": "China",
-    "keywords": "flag"
+    "keywords": "flag + PRC + People's Republic of Chine"
   },
   {
     "no": 1433,
@@ -10252,7 +10252,7 @@
     "codes": "1F1EC 1F1E7",
     "char": "🇬🇧",
     "name": "United Kingdom",
-    "keywords": "flag"
+    "keywords": "flag + UK + Great Britain"
   },
   {
     "no": 1466,
@@ -10434,7 +10434,7 @@
     "codes": "1F1EE 1F1EA",
     "char": "🇮🇪",
     "name": "Ireland",
-    "keywords": "flag"
+    "keywords": "flag + Republic of Ireland"
   },
   {
     "no": 1492,
@@ -10567,14 +10567,14 @@
     "codes": "1F1F0 1F1F5",
     "char": "🇰🇵",
     "name": "North Korea",
-    "keywords": "flag"
+    "keywords": "flag + DPRK + Democratic People's Republic of Korea"
   },
   {
     "no": 1511,
     "codes": "1F1F0 1F1F7",
     "char": "🇰🇷",
     "name": "South Korea",
-    "keywords": "flag"
+    "keywords": "flag + ROK + Republic of Korea"
   },
   {
     "no": 1512,
@@ -11365,7 +11365,7 @@
     "codes": "1F1FA 1F1F8",
     "char": "🇺🇸",
     "name": "United States",
-    "keywords": "flag"
+    "keywords": "flag + America + USA + United States of America"
   },
   {
     "no": 1625,
