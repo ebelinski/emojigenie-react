@@ -1,15 +1,15 @@
 .emojis {
   padding-top: 0.9rem;
   text-align: center;
-  font-size: 4rem;
-  line-height: 3.5rem;
+  font-size: 3.5rem;
+  line-height: 3.1rem;
   overflow: hidden;
 }
 
 .emoji-container {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
 } .emoji-container:hover {
   background: #666;
   border-radius: 5px;

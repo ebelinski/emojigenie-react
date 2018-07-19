@@ -1,27 +1,26 @@
 .App {
   text-align: left;
   margin: 0 auto;
-  max-width: 48rem;
   padding: 0px;
   margin-left: 1rem auto;
   margin-right: 1rem auto;
 }
 
-@media screen and (min-width: 18rem) {
+@media screen and (min-width: 19.5rem) {
   .App {
-    width: 16rem;
+    width: 17.5rem;
   }
 }
 
-@media screen and (min-width: 22rem) {
+@media screen and (min-width: 23rem) {
   .App {
-    width: 20rem;
+    width: 21rem;
   }
 }
 
-@media screen and (min-width: 26rem) {
+@media screen and (min-width: 26.5rem) {
   .App {
-    width: 24rem;
+    width: 24.5rem;
   }
 }
 
@@ -31,32 +30,38 @@
   }
 }
 
-@media screen and (min-width: 34rem) {
+@media screen and (min-width: 33.5rem) {
   .App {
-    width: 32rem;
+    width: 31.5rem;
   }
 }
 
-@media screen and (min-width: 38rem) {
+@media screen and (min-width: 37rem) {
   .App {
-    width: 36rem;
+    width: 35rem;
   }
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 40.5rem) {
   .App {
-    width: 40rem;
+    width: 38.5rem;
   }
 }
 
-@media screen and (min-width: 46rem) {
+@media screen and (min-width: 44rem) {
   .App {
-    width: 44rem;
+    width: 42rem;
   }
 }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 47.5rem) {
   .App {
-    width: 48rem;
+    width: 45.5rem;
+  }
+}
+
+@media screen and (min-width: 51rem) {
+  .App {
+    width: 49rem;
   }
 }
