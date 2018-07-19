@@ -63,16 +63,13 @@ class Genie extends Component {
     return (
       <div className="Genie">
         <Notifications />
-        <div id="header">
-          <h1>EmojiGenie 🧞‍♀️</h1>
-          <div id="input-container">
-            <input 
-              placeholder="Find the emoji of your dreams..."
-              type="text" 
-              ref={(input) => { this.queryInput = input; }}
-              value={this.props.query}
-              onChange={this.handleChange.bind(this)} />
-          </div>
+        <div id="input-container">
+          <input 
+            placeholder="Find the emoji of your dreams..."
+            type="text" 
+            ref={(input) => { this.queryInput = input; }}
+            value={this.props.query}
+            onChange={this.handleChange.bind(this)} />
         </div>
         <div className="emojis">{emojiItems}</div>
         {isMobile ? null : <ReactTooltip />}
