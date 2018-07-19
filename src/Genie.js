@@ -14,17 +14,9 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  filterEmojis: (query) => dispatch ({
-    type: actionTypes.QUERY,
-    query: query
-  })
 });
 
 class Genie extends Component {
-  handleChange(event) {
-    this.props.filterEmojis(event.target.value);
-  }
-
   handleEmojiClick(event) {
     const emoji = event.target.innerText;
     copy(emoji);
@@ -63,22 +55,10 @@ class Genie extends Component {
     return (
       <div className="Genie">
         <Notifications />
-        <div id="input-container">
-          <input 
-            placeholder="Find the emoji of your dreams..."
-            type="text" 
-            ref={(input) => { this.queryInput = input; }}
-            value={this.props.query}
-            onChange={this.handleChange.bind(this)} />
-        </div>
         <div className="emojis">{emojiItems}</div>
         {isMobile ? null : <ReactTooltip />}
       </div>
     );
-  }
-
-  componentDidMount() {
-    this.queryInput.focus();
   }
 }
 
