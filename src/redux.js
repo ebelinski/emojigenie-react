@@ -13,30 +13,26 @@ export const initialState = {
   filteredEmojis: []
 }
 
+function filterEmojis(emojis, query) {
+  if (!query) return [];
+
+  const lowerCaseQuery = query.toLowerCase();
+  const filteredEmojis = emojis.filter(emoji => {
+    if (emoji.name.toLowerCase().includes(lowerCaseQuery)) {return true;}
+    if (emoji.keywords.toLowerCase().includes(lowerCaseQuery)) {return true;}
+    return false;
+  });
+
+  return filteredEmojis;
+}
+
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.QUERY:
-      const query = action.query;
-
-      if (!query) {
-        return {
-          ...state,
-          query: query,
-          filteredEmojis: []
-        }
-      }
-
-      const lowerCaseQuery = query.toLowerCase();
-      const filteredEmojis = state.emojis.filter(emoji => {
-        if (emoji.name.toLowerCase().includes(lowerCaseQuery)) {return true;}
-        if (emoji.keywords.toLowerCase().includes(lowerCaseQuery)) {return true;}
-        return false;
-      });
-
       return {
         ...state,
-        query: query,
-        filteredEmojis: filteredEmojis
+        query: action.query,
+        filteredEmojis: filterEmojis(state.emojis, action.query)
       }
     default: return state;
   }
