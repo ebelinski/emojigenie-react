@@ -1131,42 +1131,42 @@
     "codes": "1F482",
     "char": "💂",
     "name": "guard",
-    "keywords": "guard"
+    "keywords": "guard + british guardsman + bearskin hat"
   },
   {
     "no": 163,
     "codes": "1F482 200D 2642 FE0F",
     "char": "💂‍♂️",
     "name": "man guard",
-    "keywords": "guard | man"
+    "keywords": "guard | man + british guardsman + bearskin hat"
   },
   {
     "no": 164,
     "codes": "1F482 200D 2640 FE0F",
     "char": "💂‍♀️",
     "name": "woman guard",
-    "keywords": "guard | woman"
+    "keywords": "guard | woman + british guardswoman + bearskin hat"
   },
   {
     "no": 165,
     "codes": "1F477",
     "char": "👷",
     "name": "construction worker",
-    "keywords": "construction | hat | worker"
+    "keywords": "construction | hat | worker + hard hat"
   },
   {
     "no": 166,
     "codes": "1F477 200D 2642 FE0F",
     "char": "👷‍♂️",
     "name": "man construction worker",
-    "keywords": "construction | man | worker"
+    "keywords": "construction | man | worker + hard hat"
   },
   {
     "no": 167,
     "codes": "1F477 200D 2640 FE0F",
     "char": "👷‍♀️",
     "name": "woman construction worker",
-    "keywords": "construction | woman | worker"
+    "keywords": "construction | woman | worker + hard hat"
   },
   {
     "no": 168,
