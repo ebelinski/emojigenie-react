@@ -5674,7 +5674,7 @@
     "codes": "1F6A8",
     "char": "🚨",
     "name": "police car light",
-    "keywords": "beacon | car | light | police | revolving"
+    "keywords": "beacon | car | light | police | revolving + emergency + alert"
   },
   {
     "no": 812,
@@ -5695,7 +5695,7 @@
     "codes": "1F6D1",
     "char": "🛑",
     "name": "stop sign",
-    "keywords": "octagonal | sign | stop"
+    "keywords": "octagonal | sign | stop + alert"
   },
   {
     "no": 815,
