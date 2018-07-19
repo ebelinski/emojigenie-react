@@ -7,8 +7,6 @@ import Notifications, {notify} from 'react-notify-toast';
 import { isMobile } from 'react-device-detect';
 
 const mapStateToProps = state => ({
-  emojis: state.emojis,
-  query: state.query,
   filteredEmojis: state.filteredEmojis
 });
 
@@ -26,25 +24,27 @@ class Results extends Component {
   }
 
   render() {
-    const {query, emojis, filteredEmojis} = this.props;
+    const {filteredEmojis} = this.props;
 
-    const emojisToUse = query ? filteredEmojis : emojis;
-
-    var emojiItems = emojisToUse.map((emoji) => {
+    var emojiItems = filteredEmojis.map((emoji) => {
       var dataTip = emoji.name;
       if (emoji.name.includes("⊛")) {
         dataTip += " — This is a new emoji that your browser may not be able to display!";
       }
 
-      return (<div className="emoji-container"><span 
-        data-tip={dataTip}
-        role="img"
-        key={emoji.name}
-        aria-label={emoji.name}
-        className="emoji"
-        onClick={this.handleEmojiClick.bind(this)}>
-        {emoji.char}
-      </span></div>)
+      return (
+        <div 
+          className="emoji-container"
+          key={emoji.name}>
+          <span 
+            data-tip={dataTip}
+            role="img"
+            aria-label={emoji.name}
+            className="emoji"
+            onClick={this.handleEmojiClick.bind(this)}>
+            {emoji.char}
+          </span>
+        </div>)
     });
 
     if (emojiItems.length === 0) {
