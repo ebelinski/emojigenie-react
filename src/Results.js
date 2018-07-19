@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import './Genie.css';
+import './Results.css';
 import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
 import ReactTooltip from 'react-tooltip';
@@ -16,7 +16,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
 });
 
-class Genie extends Component {
+class Results extends Component {
   handleEmojiClick(event) {
     const emoji = event.target.innerText;
     copy(emoji);
@@ -53,7 +53,7 @@ class Genie extends Component {
     }
 
     return (
-      <div className="Genie">
+      <div className="Results">
         <Notifications />
         <div className="emojis">{emojiItems}</div>
         {isMobile ? null : <ReactTooltip />}
@@ -62,4 +62,4 @@ class Genie extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Genie);
+export default connect(mapStateToProps, mapDispatchToProps)(Results);
