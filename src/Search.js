@@ -24,7 +24,7 @@ class Search extends Component {
                                  : "Find the emoji of your dreams...";
 
     return (
-      <div class="Search">
+      <div className="Search">
         <input 
           placeholder={placeholder}
           type="text" 
