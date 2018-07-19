@@ -7,8 +7,6 @@ import Notifications, {notify} from 'react-notify-toast';
 import { isMobile } from 'react-device-detect';
 
 const mapStateToProps = state => ({
-  emojis: state.emojis,
-  query: state.query,
   filteredEmojis: state.filteredEmojis
 });
 
@@ -26,7 +24,7 @@ class Results extends Component {
   }
 
   render() {
-    const {query, filteredEmojis} = this.props;
+    const {filteredEmojis} = this.props;
 
     var emojiItems = filteredEmojis.map((emoji) => {
       var dataTip = emoji.name;
