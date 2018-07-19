@@ -26,11 +26,9 @@ class Results extends Component {
   }
 
   render() {
-    const {query, emojis, filteredEmojis} = this.props;
+    const {query, filteredEmojis} = this.props;
 
-    const emojisToUse = query ? filteredEmojis : emojis;
-
-    var emojiItems = emojisToUse.map((emoji) => {
+    var emojiItems = filteredEmojis.map((emoji) => {
       var dataTip = emoji.name;
       if (emoji.name.includes("⊛")) {
         dataTip += " — This is a new emoji that your browser may not be able to display!";
