@@ -22,3 +22,9 @@
   font-family: 'Asap', sans-serif !important;
   text-align: center;
 }
+
+@media screen and (min-width: 22rem) {
+  .Search input {
+    font-size: 1.4em !important;
+  }
+}

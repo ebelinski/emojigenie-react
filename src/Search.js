@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './Search.css';
 import { actionTypes } from './redux';
+import { isMobile } from 'react-device-detect';
 
 const mapStateToProps = state => ({
 });
@@ -19,10 +20,13 @@ class Search extends Component {
   }
 
   render() {
+    const placeholder = isMobile ? "Find your dream emoji..." 
+                                 : "Find the emoji of your dreams...";
+
     return (
       <div class="Search">
         <input 
-          placeholder="Find the emoji of your dreams..."
+          placeholder={placeholder}
           type="text" 
           ref={(input) => { this.queryInput = input; }}
           value={this.props.query}
