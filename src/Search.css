@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 22rem) {
+@media screen and (max-width: 22rem) {
   .Search input {
     font-size: 1.4em !important;
   }
