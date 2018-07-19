@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './Results.css';
-import { actionTypes } from './redux';
 import copy from 'clipboard-copy';
 import ReactTooltip from 'react-tooltip';
 import Notifications, {notify} from 'react-notify-toast';
