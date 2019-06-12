@@ -1,9 +1,7 @@
 .App {
   text-align: left;
   margin: 0 auto;
-  padding: 0px;
-  margin-left: 1rem auto;
-  margin-right: 1rem auto;
+  padding: 0rem 1rem;
 }
 
 @media screen and (min-width: 19.5rem) {
