@@ -8,6 +8,6 @@
 2. `yarn install`
 3. `yarn start`
 
-## Deploy to GitHub Pages
+## Deploy
 
-1. `yarn deploy`
+Pushing to `main` builds the site and deploys it to GitHub Pages ([`.github/workflows/pages.yml`](.github/workflows/pages.yml)).
