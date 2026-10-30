@@ -20,7 +20,7 @@ export default class FooterHelp extends Component {
         
         <p className="question">I expected a certain emoji to show up when I searched for it, but it didn't.</p>
 
-        <p>Please let me know what you searched and which emoji you expected, and I can add it! Contact me on <a href="https://twitter.com/EugeneBelinski">Twitter</a> or via another method on <a href="https://ebelinski.com/">my website</a>. Or if you are familiar with GitHub, submit a pull request to the <a href="https://github.com/ebelinski/emojigenie-react">repo</a>!</p>
+        <p>Please let me know what you searched and which emoji you expected, and I can add it! Contact me on <a href="https://bsky.app/profile/eugenemsp.bsky.social">Bluesky</a> or via another method on <a href="https://ebelinski.com/">my website</a>. Or if you are familiar with GitHub, submit a pull request to the <a href="https://github.com/ebelinski/emojigenie-react">repo</a>!</p>
         
         <p className="question">I found a problem not listed here.</p>
 

@@ -32,7 +32,7 @@ export default class Footer extends Component {
         <span> | </span>
         <a href="https://github.com/ebelinski/emojigenie-react/issues/new">Suggestions</a>
         <span> | </span>
-        Created and maintained by <a href="https://twitter.com/EugeneBelinski">Eugene <span role="img" aria-label="man technologist">👨🏻‍💻</span></a>
+        Created and maintained by <a href="https://bsky.app/profile/eugenemsp.bsky.social">Eugene <span role="img" aria-label="man technologist">👨🏻‍💻</span></a>
 
         {displayedContent === displayableContent.about ? <FooterAbout /> : null}
         {displayedContent === displayableContent.help ? <FooterHelp /> : null}
